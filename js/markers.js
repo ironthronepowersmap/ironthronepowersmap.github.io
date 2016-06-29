@@ -150,7 +150,7 @@ var markers_North = [
 [71.60828252210263,-108.28125,North,"Highpoint"],
 [67.30597574414466,-108.984375,NorthCapitol,"Winterfell"],
 [63.66576033778838,-106.25976562499999,North,"Castle Cerwyn"],
-[62.71446210149774,-123.22265625000001,North,"Tallhart Square"],
+[62.71446210149774,-123.22265625000001,North,"Torrhen's Square"],
 [56.41390137600676,-119.00390625,North,"Goldgrass"],
 [57.562995459387146,-124.27734374999999,NorthTown,"Barrowton"],
 [59.933000423746336,-142.03125,North,"The Rills"],
@@ -315,8 +315,8 @@ var markers_West = [
 [2.6357885741666065,-143.876953125,WestCity,"Lannisport"]
 ]
 
-// Wall
 var markers_NonWesteros = [
+// Wall
 [77.3318091852135,-93.95507879555225,Wall,"Castle Black"],
 [77.35106958476409,-85.16601629555225,Wall,"Eastwatch"],
 [77.2544787022853,-103.00781317055225,Wall,"Shadow Tower"],
