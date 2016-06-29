@@ -15,6 +15,7 @@ var CLcity = L.icon({iconUrl: 'img/marker/CLcity.png',iconSize: [32, 74]})
 var CLfort = L.icon({iconUrl: 'img/marker/CLfort.png',iconSize: [32, 74]})
 
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
+var DorneCapitol = L.icon({iconUrl: 'img/marker/DorneCapitol.png',iconSize: [32, 74]})
 
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
 var IItown = L.icon({iconUrl: 'img/marker/IItown.png',iconSize: [32, 74]})
@@ -25,6 +26,9 @@ var NorthCity = L.icon({iconUrl: 'img/marker/NorthCity.png',iconSize: [32, 74]})
 var NorthTown = L.icon({iconUrl: 'img/marker/NorthTown.png',iconSize: [32, 74]})
 var NorthCapitol = L.icon({iconUrl: 'img/marker/NorthCapitol.png',iconSize: [32, 74]})
 var NorthFort = L.icon({iconUrl: 'img/marker/NorthFort.png',iconSize: [32, 74]})
+
+var IbCity = L.icon({iconUrl: 'img/marker/IbCity.png',iconSize: [32, 74]})
+var IbTown = L.icon({iconUrl: 'img/marker/IbTown.png',iconSize: [32, 74]})
 
 var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
@@ -240,7 +244,7 @@ var markers_Dorne = [
 [-45.33670190996812,-88.59374999999999,Dorne,"The Tor"],
 [-46.01222384063236,-71.806640625,Dorne,"Ghost Hill"],
 [-48.80686346108517,-68.291015625,Dorne,"Spottswood"],
-[-50.736455137010644,-71.806640625,Dorne,"Sunspear"],
+[-50.736455137010644,-71.806640625,DorneCapitol,"Sunspear"],
 [-53.4357192066942,-78.75,Dorne,"Lemonwood"],
 [-49.439556958940834,-86.1328125,Dorne,"Godsgrace"],
 [-48.74894534343292,-92.10937499999999,Dorne,"Scorched Rock"],
@@ -332,11 +336,13 @@ var markers_NonWesteros = [
 //// Rest of Essos
 [1.3182430568620136,-28.125,EssosRuin,"Ghoyan Drohe"],
 [-7.536764322084078,-12.480468749999998,EssosRuin,"Ny Sar"],
-[60.71619779357716,144.22851495444772,EssosCity,"Port of Ibben"],
-[68.52823492039876,149.06249932944772,EssosTown,"Ib Nor"],
-[50.401515322782366,170.15624932944775,EssosTown,"Ib Saar"],
+
+[60.71619779357716,144.22851495444772,IbCity,"Port of Ibben"],
+[68.52823492039876,149.06249932944772,IbTown,"Ib Nor"],
+[50.401515322782366,170.15624932944775,IbTown,"Ib Saar"],
 [43.51668853502909,157.67578057944775,EssosRuin,"Ibbish"],
-[47.39834920035926,143.61328057944775,EssosTown,"New Ibbish"],
+[47.39834920035926,143.61328057944775,IbTown,"New Ibbish"],
+
 [33.50475906922606,54.75585870444774,EssosRuin,"Sarys"],
 [38.548165423046584,49.13085870444774,EssosCity,"Morosh"],
 [31.87755764334002,39.814452454447746,EssosCity,"Saath"],
