@@ -31,6 +31,9 @@ var NorthFort = L.icon({iconUrl: 'img/marker/NorthFort.png',iconSize: [32, 74]})
 var IbCity = L.icon({iconUrl: 'img/marker/IbCity.png',iconSize: [32, 74]})
 var IbTown = L.icon({iconUrl: 'img/marker/IbTown.png',iconSize: [32, 74]})
 
+var SlaverCity = L.icon({iconUrl: 'img/marker/SlaverCity.png',iconSize: [32, 74]})
+var SlaverRuins = L.icon({iconUrl: 'img/marker/SlaverRuins.png',iconSize: [32, 74]})
+
 var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
 var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
@@ -356,11 +359,13 @@ var markers_NonWesteros = [
 [-20.797201434306984,83.05663995444775,EssosRuin,"Hazdahn No"],
 [10.487811882056683,140.88867120444775,EssosTown,"Vaes Dothrak"],
 [-40.78054143186031,-64.423828125,EssosFort,"Bloodstone (T1 Fort and T1 Port)"],
-[-66.687783861162,82.61718682944775,EssosRuin,"Old Ghis"],
-[-73.022591571473,86.57226495444775,EssosCity,"New Ghis"],
-[-57.32652122521709,78.57421807944775,EssosCity,"Astapor"],
-[-45.95114968669139,82.52929620444775,EssosCity,"Yunkai"],
-[-40.913512576127566,89.64843682944775,EssosCity,"Meereen"],
+
+[-66.687783861162,82.61718682944775,SlaverRuins,"Old Ghis"],
+[-73.022591571473,86.57226495444775,SlaverCity,"New Ghis"],
+[-57.32652122521709,78.57421807944775,SlaverCity,"Astapor"],
+[-45.95114968669139,82.52929620444775,SlaverCity,"Yunkai"],
+[-40.913512576127566,89.64843682944775,SlaverCity,"Meereen"],
+
 [-66.6181218846659,166.99218682944775,EssosCity,"Qarth"],
 [-62.71446210149774,155.47851495444775,EssosRuin,"Vaes Qosar"],
 [-57.23150299147891,144.66796807944775,EssosRuin,"Vaes Tolorro"],
