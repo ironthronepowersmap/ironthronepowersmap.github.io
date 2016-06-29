@@ -28,29 +28,6 @@ var NorthTown = L.icon({iconUrl: 'img/marker/NorthTown.png',iconSize: [32, 74]})
 var NorthCapitol = L.icon({iconUrl: 'img/marker/NorthCapitol.png',iconSize: [32, 74]})
 var NorthFort = L.icon({iconUrl: 'img/marker/NorthFort.png',iconSize: [32, 74]})
 
-var IbCity = L.icon({iconUrl: 'img/marker/IbCity.png',iconSize: [32, 74]})
-var IbTown = L.icon({iconUrl: 'img/marker/IbTown.png',iconSize: [32, 74]})
-
-var SlaverCity = L.icon({iconUrl: 'img/marker/SlaverCity.png',iconSize: [32, 74]})
-var SlaverRuins = L.icon({iconUrl: 'img/marker/SlaverRuins.png',iconSize: [32, 74]})
-
-var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
-var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
-var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
-var EssosTown = L.icon({iconUrl: 'img/marker/EssosTown.png',iconSize: [32, 74]})
-var EssosCity = L.icon({iconUrl: 'img/marker/EssosCity.png',iconSize: [32, 74]})
-var EssosBigCity = L.icon({iconUrl: 'img/marker/EssosBigCity.png',iconSize: [32, 74]})
-
-var ValyriaRuin = L.icon({iconUrl: 'img/marker/ValyriaRuin.png',iconSize: [32, 74]})
-var ValyriaCity = L.icon({iconUrl: 'img/marker/ValyriaCity.png',iconSize: [32, 74]})
-
-var SothoryosRuin = L.icon({iconUrl: 'img/marker/SothoryosRuin.png',iconSize: [32, 74]})
-
-var Rhoynish = L.icon({iconUrl: 'img/marker/Rhoynish.png',iconSize: [32, 74]})
-
-var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
-var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
-
 var Reach = L.icon({iconUrl: 'img/marker/Reach.png',iconSize: [32, 74]})
 var ReachFort = L.icon({iconUrl: 'img/marker/ReachFort.png',iconSize: [32, 74]})
 var ReachTown = L.icon({iconUrl: 'img/marker/ReachTown.png',iconSize: [32, 74]})
@@ -76,6 +53,30 @@ var West = L.icon({iconUrl: 'img/marker/West.png',iconSize: [32, 74]})
 var WestTown = L.icon({iconUrl: 'img/marker/WestTown.png',iconSize: [32, 74]})
 var WestCity = L.icon({iconUrl: 'img/marker/WestCity.png',iconSize: [32, 74]})
 var WestCapitol = L.icon({iconUrl: 'img/marker/WestCapitol.png',iconSize: [32, 74]})
+
+var IbCity = L.icon({iconUrl: 'img/marker/IbCity.png',iconSize: [32, 74]})
+var IbTown = L.icon({iconUrl: 'img/marker/IbTown.png',iconSize: [32, 74]})
+var IbRuins = L.icon({iconUrl: 'img/marker/IbRuins.png',iconSize: [32, 74]})
+
+var SlaverCity = L.icon({iconUrl: 'img/marker/SlaverCity.png',iconSize: [32, 74]})
+var SlaverRuins = L.icon({iconUrl: 'img/marker/SlaverRuins.png',iconSize: [32, 74]})
+
+var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
+var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
+var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
+var EssosTown = L.icon({iconUrl: 'img/marker/EssosTown.png',iconSize: [32, 74]})
+var EssosCity = L.icon({iconUrl: 'img/marker/EssosCity.png',iconSize: [32, 74]})
+var EssosBigCity = L.icon({iconUrl: 'img/marker/EssosBigCity.png',iconSize: [32, 74]})
+
+var ValyriaRuin = L.icon({iconUrl: 'img/marker/ValyriaRuin.png',iconSize: [32, 74]})
+var ValyriaCity = L.icon({iconUrl: 'img/marker/ValyriaCity.png',iconSize: [32, 74]})
+
+var SothoryosRuin = L.icon({iconUrl: 'img/marker/SothoryosRuin.png',iconSize: [32, 74]})
+
+var Rhoynish = L.icon({iconUrl: 'img/marker/Rhoynish.png',iconSize: [32, 74]})
+
+var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
+var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
 
 // Define the markers
 var markers_SL = [
@@ -344,7 +345,7 @@ var markers_NonWesteros = [
 [60.71619779357716,144.22851495444772,IbCity,"Port of Ibben"],
 [68.52823492039876,149.06249932944772,IbTown,"Ib Nor"],
 [50.401515322782366,170.15624932944775,IbTown,"Ib Saar"],
-[43.51668853502909,157.67578057944775,EssosRuin,"Ibbish"],
+[43.51668853502909,157.67578057944775,IbRuins,"Ibbish"],
 [47.39834920035926,143.61328057944775,IbTown,"New Ibbish"],
 
 [33.50475906922606,54.75585870444774,EssosRuin,"Sarys"],
