@@ -8,6 +8,7 @@ var SL = L.icon({iconUrl: 'img/marker/SL.png',iconSize: [32, 74]})
 var SLcapitol = L.icon({iconUrl: 'img/marker/SLcapitol.png',iconSize: [32, 74]})
 var SLfort = L.icon({iconUrl: 'img/marker/SLfort.png',iconSize: [32, 74]})
 var SLtown = L.icon({iconUrl: 'img/marker/SLtown.png',iconSize: [32, 74]})
+var SLpalace = L.icon({iconUrl: 'img/marker/SLpalace.png',iconSize: [32, 74]})
 
 var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
 var CLtown = L.icon({iconUrl: 'img/marker/CLtown.png',iconSize: [32, 74]})
@@ -79,7 +80,7 @@ var markers_SL = [
 [-32.76880048488168,-116.27929687499999,SL,"Nightsong"],
 [-29.228890030194215,-107.841796875,SL,"Harvest Hall"],
 [-30.524413269923986,-101.6015625,SL,"Blackhaven"],
-[-25.562265014427492,-96.328125,SL,"Summerhall"],
+[-25.562265014427492,-96.328125,SLpalace,"Summerhall"],
 [-21.37124437061831,-98.525390625,SL,"Broad Arch"],
 [-25.720735134412095,-89.912109375,SL,"Grandview"],
 [-31.503629305773018,-90.87890625,SL,"Stonehelm"],
