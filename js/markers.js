@@ -325,8 +325,7 @@ var markers_West = [
 [-8.233237111274553,-148.53515625,West,"Crakehall"],
 [-5.9657536710655235,-132.5390625,West,"The Bower"],
 [-6.664607562172573,-138.8671875,West,"Cornfield"],
-[2.6357885741666065,-143.876953125,WestCity,"Lannisport"],
-]
+[2.6357885741666065,-143.876953125,WestCity,"Lannisport"]]
 
 var markers_NonWesteros = [
 // Wall
@@ -431,5 +430,4 @@ var markers_NonWesteros = [
 [-80.8588748843299,74.619140625,SothoryosRuin,"Zamettar"],
 [-83.03688198552364,81.5625,SothoryosRuin,"Yeen"],
 [-82.48333497678894,62.75390625,SothoryosRuin,"Gogossos"],
-[-79.68718415450823,132.099609375,SothoryosRuin,"Gorosh"],
-]
+[-79.68718415450823,132.099609375,SothoryosRuin,"Gorosh"]]
