@@ -61,6 +61,10 @@ var IbRuins = L.icon({iconUrl: 'img/marker/IbRuins.png',iconSize: [32, 74]})
 var SlaverCity = L.icon({iconUrl: 'img/marker/SlaverCity.png',iconSize: [32, 74]})
 var SlaverRuins = L.icon({iconUrl: 'img/marker/SlaverRuins.png',iconSize: [32, 74]})
 
+var QarthCity = L.icon({iconUrl: 'img/marker/QarthCity.png',iconSize: [32, 74]})
+var QarthTown = L.icon({iconUrl: 'img/marker/QarthTown.png',iconSize: [32, 74]})
+var QarthRuins = L.icon({iconUrl: 'img/marker/QarthRuins.png',iconSize: [32, 74]})
+
 var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
 var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
@@ -367,13 +371,14 @@ var markers_NonWesteros = [
 [-45.95114968669139,82.52929620444775,SlaverCity,"Yunkai"],
 [-40.913512576127566,89.64843682944775,SlaverCity,"Meereen"],
 
-[-66.6181218846659,166.99218682944775,EssosCity,"Qarth"],
-[-62.71446210149774,155.47851495444775,EssosRuin,"Vaes Qosar"],
-[-57.23150299147891,144.66796807944775,EssosRuin,"Vaes Tolorro"],
-[-61.81466389468391,138.60351495444775,EssosRuin,"Vaes Shirosi"],
-[-63.430860212678105,129.19921807944775,EssosRuin,"Vaes Orvik"],
-[-66.08936427047087,127.35351495444773,EssosTown,"Port Yhos"],
-[-64.92354174306496,147.91992120444775,EssosTown,"Qarkash"],
+[-66.6181218846659,166.99218682944775,QarthCity,"Qarth"],
+[-62.71446210149774,155.47851495444775,QarthRuins,"Vaes Qosar"],
+[-57.23150299147891,144.66796807944775,QarthRuins,"Vaes Tolorro"],
+[-61.81466389468391,138.60351495444775,QarthRuins,"Vaes Shirosi"],
+[-63.430860212678105,129.19921807944775,QarthRuins,"Vaes Orvik"],
+[-66.08936427047087,127.35351495444773,QarthTown,"Port Yhos"],
+[-64.92354174306496,147.91992120444775,QarthTown,"Qarkash"],
+
 [-41.64007838467892,127.44140557944775,EssosCity,"Kosrak"],
 [-30.902224705171427,160.83984307944775,EssosRuin,"Adakhakileki"],
 [-26.509904531413927,166.37695245444775,EssosRuin,"Vaes Jini (Yinishar)"],
