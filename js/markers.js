@@ -65,6 +65,8 @@ var QarthCity = L.icon({iconUrl: 'img/marker/QarthCity.png',iconSize: [32, 74]})
 var QarthTown = L.icon({iconUrl: 'img/marker/QarthTown.png',iconSize: [32, 74]})
 var QarthRuins = L.icon({iconUrl: 'img/marker/QarthRuins.png',iconSize: [32, 74]})
 
+var Lhazar = L.icon({iconUrl: 'img/marker/Lhazar.png',iconSize: [32, 74]})
+
 var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
 var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
@@ -342,10 +344,11 @@ var markers_NonWesteros = [
 [36.24427318493909,-21.97265625,EssosCity,"Lorath"],
 [-51.72702815704775,5.625,EssosCity,"Volantis"],
 
-//// Rest of Essos
+// Rest of Essos
 [1.3182430568620136,-28.125,EssosRuin,"Ghoyan Drohe"],
 [-7.536764322084078,-12.480468749999998,EssosRuin,"Ny Sar"],
 
+//Ib
 [60.71619779357716,144.22851495444772,IbCity,"Port of Ibben"],
 [68.52823492039876,149.06249932944772,IbTown,"Ib Nor"],
 [50.401515322782366,170.15624932944775,IbTown,"Ib Saar"],
@@ -365,12 +368,14 @@ var markers_NonWesteros = [
 [10.487811882056683,140.88867120444775,EssosTown,"Vaes Dothrak"],
 [-40.78054143186031,-64.423828125,EssosFort,"Bloodstone (T1 Fort and T1 Port)"],
 
+//Slaver's Bay
 [-66.687783861162,82.61718682944775,SlaverRuins,"Old Ghis"],
 [-73.022591571473,86.57226495444775,SlaverCity,"New Ghis"],
 [-57.32652122521709,78.57421807944775,SlaverCity,"Astapor"],
 [-45.95114968669139,82.52929620444775,SlaverCity,"Yunkai"],
 [-40.913512576127566,89.64843682944775,SlaverCity,"Meereen"],
 
+//Qarth and Surrounding Lands
 [-66.6181218846659,166.99218682944775,QarthCity,"Qarth"],
 [-62.71446210149774,155.47851495444775,QarthRuins,"Vaes Qosar"],
 [-57.23150299147891,144.66796807944775,QarthRuins,"Vaes Tolorro"],
@@ -379,14 +384,17 @@ var markers_NonWesteros = [
 [-66.08936427047087,127.35351495444773,QarthTown,"Port Yhos"],
 [-64.92354174306496,147.91992120444775,QarthTown,"Qarkash"],
 
-[-41.64007838467892,127.44140557944775,EssosCity,"Kosrak"],
+//Lhazar
+[-41.64007838467892,127.44140557944775,Lhazar,"Kosrak"],
+[-41.70572851523751,108.01757745444775,Lhazar,"Hesh"],
+[-49.667627822621924,115.57617120444775,Lhazar,"Lhazosh"],
+
 [-30.902224705171427,160.83984307944775,EssosRuin,"Adakhakileki"],
 [-26.509904531413927,166.37695245444775,EssosRuin,"Vaes Jini (Yinishar)"],
 [-21.616579336740593,135.08788995444775,EssosRuin,"Vaes Efe"],
 [-28.381735043223095,129.19921807944775,EssosRuin,"Vaes Mejhah"],
 [-29.305561325527712,119.26757745444775,EssosRuin,"Qhardaq"],
-[-41.70572851523751,108.01757745444775,EssosCity,"Hesh"],
-[-49.667627822621924,115.57617120444775,EssosCity,"Lhazosh"],
+
 [-28.226970038918328,-7.207031920552255,EssosRuin,"The Sorrows"],
 [-40.380028402511826,-4.218750670552254,EssosTown,"Selhorys"],
 [-45.151053265563384,-4.218750670552254,EssosTown,"Valysar"],
