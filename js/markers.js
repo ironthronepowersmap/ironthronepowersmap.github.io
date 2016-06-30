@@ -17,6 +17,7 @@ var CLfort = L.icon({iconUrl: 'img/marker/CLfort.png',iconSize: [32, 74]})
 
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var DorneCapitol = L.icon({iconUrl: 'img/marker/DorneCapitol.png',iconSize: [32, 74]})
+var DorneRuins = L.icon({iconUrl: 'img/marker/DorneRuins.png',iconSize: [32, 74]})
 
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
 var IItown = L.icon({iconUrl: 'img/marker/IItown.png',iconSize: [32, 74]})
@@ -263,7 +264,7 @@ var markers_Dorne = [
 [-39.571822237343724,-115.400390625,Dorne,"Kingsgrave"],
 [-43.32517767999295,-113.5546875,Dorne,"Skyreach"],
 [-43.19716728250127,-102.83203125,Dorne,"Yronwood"],
-[-40.51379915504413,-95.712890625,Dorne,"Gallowsgrey"],
+[-40.51379915504413,-95.712890625,DorneRuins,"Ghaston Grey"],
 [-45.33670190996812,-88.59374999999999,Dorne,"The Tor"],
 [-46.01222384063236,-71.806640625,Dorne,"Ghost Hill"],
 [-48.80686346108517,-68.291015625,Dorne,"Spottswood"],
