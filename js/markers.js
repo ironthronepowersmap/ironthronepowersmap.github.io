@@ -67,7 +67,6 @@ var QarthRuins = L.icon({iconUrl: 'img/marker/QarthRuins.png',iconSize: [32, 74]
 
 var Lhazar = L.icon({iconUrl: 'img/marker/Lhazar.png',iconSize: [32, 74]})
 
-
 var NonWesteros = L.icon({iconUrl: 'img/marker/Essos.png',iconSize: [32, 74]})
 var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
@@ -75,6 +74,10 @@ var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
 var EssosTown = L.icon({iconUrl: 'img/marker/EssosTown.png',iconSize: [32, 74]})
 var EssosCity = L.icon({iconUrl: 'img/marker/EssosCity.png',iconSize: [32, 74]})
 var EssosBigCity = L.icon({iconUrl: 'img/marker/EssosBigCity.png',iconSize: [32, 74]})
+
+var BaseCity = L.icon({iconUrl: 'img/marker/BaseCity.png',iconSize: [32, 74]})
+var BaseTown = L.icon({iconUrl: 'img/marker/BaseTown.png',iconSize: [32, 74]})
+var BaseRuins = L.icon({iconUrl: 'img/marker/BaseRuins.png',iconSize: [32, 74]})
 
 var ValyriaRuin = L.icon({iconUrl: 'img/marker/ValyriaRuin.png',iconSize: [32, 74]})
 var ValyriaCity = L.icon({iconUrl: 'img/marker/ValyriaCity.png',iconSize: [32, 74]})
@@ -195,7 +198,9 @@ var markers_CL = [
 [-0.7031073524364783,-95.361328125,CL,"Hayford"],
 [-1.5818302639606328,-91.49414062499999,CL,"Rosby"],
 [-4.915832801313164,-99.31640625,CLfort,"Fort Rosby"],
+[-40.78054143186031,-64.423828125,CLfort,"Bloodstone (T1 Fort and T1 Port)"],
 [-4.8282597468669755,-94.21875,CLcity,"King's Landing"]]
+
 //Reach
 
 var markers_Reach = [
@@ -354,18 +359,17 @@ var markers_NonWesteros = [
 [43.51668853502909,157.67578057944775,IbRuins,"Ibbish"],
 [47.39834920035926,143.61328057944775,IbTown,"New Ibbish"],
 
-[33.50475906922606,54.75585870444774,EssosRuin,"Sarys"],
-[38.548165423046584,49.13085870444774,EssosCity,"Morosh"],
-[31.87755764334002,39.814452454447746,EssosCity,"Saath"],
-[-0.7031073524364783,33.925780579447746,EssosRuin,"Essaria"],
-[-6.577303118123875,62.929686829447746,EssosRuin,"Sarnath"],
-[-2.3723687086440504,80.85937432944775,EssosRuin,"Kasath"],
-[-6.402648405963884,93.51562432944775,EssosRuin,"Sathar"],
-[10.228437266155943,86.48437432944775,EssosRuin,"Sallosh"],
-[3.7765593098768635,90.96679620444775,EssosRuin,"Gornath"],
-[-20.797201434306984,83.05663995444775,EssosRuin,"Hazdahn No"],
-[10.487811882056683,140.88867120444775,EssosTown,"Vaes Dothrak"],
-[-40.78054143186031,-64.423828125,EssosFort,"Bloodstone (T1 Fort and T1 Port)"],
+[33.50475906922606,54.75585870444774,BaseRuins,"Sarys"],
+[38.548165423046584,49.13085870444774,BaseTown,"Morosh"],
+[31.87755764334002,39.814452454447746,BaseTown,"Saath"],
+[-0.7031073524364783,33.925780579447746,BaseRuins,"Essaria"],
+[-6.577303118123875,62.929686829447746,BaseRuins,"Sarnath"],
+[-2.3723687086440504,80.85937432944775,BaseRuins,"Kasath"],
+[-6.402648405963884,93.51562432944775,BaseRuins,"Sathar"],
+[10.228437266155943,86.48437432944775,BaseRuins,"Sallosh"],
+[3.7765593098768635,90.96679620444775,BaseRuins,"Gornath"],
+[-20.797201434306984,83.05663995444775,BaseRuins,"Hazdahn No"],
+[10.487811882056683,140.88867120444775,BaseTown,"Vaes Dothrak"],
 
 //Slaver's Bay
 [-66.687783861162,82.61718682944775,SlaverRuins,"Old Ghis"],
