@@ -86,6 +86,9 @@ var SothoryosRuin = L.icon({iconUrl: 'img/marker/SothoryosRuin.png',iconSize: [3
 
 var Rhoynish = L.icon({iconUrl: 'img/marker/RhoyneRuins.png',iconSize: [32, 74]})
 
+var SarnorTown = L.icon({iconUrl: 'img/marker/SarnorTown.png',iconSize: [32, 74]})
+var SarnorRuins = L.icon({iconUrl: 'img/marker/SarnorRuins.png',iconSize: [32, 74]})
+
 var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
 var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
 
@@ -365,16 +368,15 @@ var markers_NonWesteros = [
 [43.51668853502909,157.67578057944775,IbRuins,"Ibbish"],
 [47.39834920035926,143.61328057944775,IbTown,"New Ibbish"],
 
-[33.50475906922606,54.75585870444774,BaseRuins,"Sarys"],
-[31.87755764334002,39.814452454447746,BaseTown,"Saath"],
-[-0.7031073524364783,33.925780579447746,BaseRuins,"Essaria"],
-[-6.577303118123875,62.929686829447746,BaseRuins,"Sarnath"],
-[-2.3723687086440504,80.85937432944775,BaseRuins,"Kasath"],
-[-6.402648405963884,93.51562432944775,BaseRuins,"Sathar"],
-[10.228437266155943,86.48437432944775,BaseRuins,"Sallosh"],
-[3.7765593098768635,90.96679620444775,BaseRuins,"Gornath"],
-[-20.797201434306984,83.05663995444775,BaseRuins,"Hazdahn No"],
-[10.487811882056683,140.88867120444775,BaseTown,"Vaes Dothrak"],
+//Sarnor
+[33.50475906922606,54.75585870444774,SarnorRuins,"Sarys"],
+[31.87755764334002,39.814452454447746,SarnorTown,"Saath"],
+[-0.7031073524364783,33.925780579447746,SarnorRuins,"Essaria"],
+[-6.577303118123875,62.929686829447746,SarnorRuins,"Sarnath"],
+[-2.3723687086440504,80.85937432944775,SarnorRuins,"Kasath"],
+[-6.402648405963884,93.51562432944775,SarnorRuins,"Sathar"],
+[10.228437266155943,86.48437432944775,SarnorRuins,"Sallosh"],
+[3.7765593098768635,90.96679620444775,SarnorRuins,"Gornath"],
 
 //Slaver's Bay
 [-66.687783861162,82.61718682944775,SlaverRuins,"Old Ghis"],
@@ -397,18 +399,14 @@ var markers_NonWesteros = [
 [-41.70572851523751,108.01757745444775,Lhazar,"Hesh"],
 [-49.667627822621924,115.57617120444775,Lhazar,"Lhazosh"],
 
-//Misc Ruins
+//Dothraki Sea
 [-30.902224705171427,160.83984307944775,BaseRuins,"Adakhakileki"],
 [-26.509904531413927,166.37695245444775,BaseRuins,"Vaes Jini (Yinishar)"],
 [-21.616579336740593,135.08788995444775,BaseRuins,"Vaes Efe"],
 [-28.381735043223095,129.19921807944775,BaseRuins,"Vaes Mejhah"],
 [-29.305561325527712,119.26757745444775,BaseRuins,"Qhardaq"],
-
-[-30.902224705171427,160.83984307944775,BaseRuins,"Adakhakileki"],
-[-26.509904531413927,166.37695245444775,BaseRuins,"Vaes Jini (Yinishar)"],
-[-21.616579336740593,135.08788995444775,BaseRuins,"Vaes Efe"],
-[-28.381735043223095,129.19921807944775,BaseRuins,"Vaes Mejhah"],
-[-29.305561325527712,119.26757745444775,BaseRuins,"Qhardaq"],
+[-20.797201434306984,83.05663995444775,BaseRuins,"Hazdahn No"],
+[10.487811882056683,140.88867120444775,BaseTown,"Vaes Dothrak"],
 
 // Moraq
 [-76.43460358351301,158.3789049088955,BaseTown,"Vahar"],
