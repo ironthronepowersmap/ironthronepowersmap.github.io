@@ -67,11 +67,9 @@ var QarthRuins = L.icon({iconUrl: 'img/marker/QarthRuins.png',iconSize: [32, 74]
 
 var Lhazar = L.icon({iconUrl: 'img/marker/Lhazar.png',iconSize: [32, 74]})
 
-<<<<<<< HEAD
+
 var NonWesteros = L.icon({iconUrl: 'img/marker/Essos.png',iconSize: [32, 74]})
-=======
 var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
->>>>>>> parent of 3f4aa57... Base
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
 var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
 var EssosTown = L.icon({iconUrl: 'img/marker/EssosTown.png',iconSize: [32, 74]})
@@ -367,7 +365,7 @@ var markers_NonWesteros = [
 [3.7765593098768635,90.96679620444775,EssosRuin,"Gornath"],
 [-20.797201434306984,83.05663995444775,EssosRuin,"Hazdahn No"],
 [10.487811882056683,140.88867120444775,EssosTown,"Vaes Dothrak"],
-[-40.78054143186031,-64.423828125,Essosfort,"Bloodstone (T1 Fort and T1 Port)"],
+[-40.78054143186031,-64.423828125,EssosFort,"Bloodstone (T1 Fort and T1 Port)"],
 
 //Slaver's Bay
 [-66.687783861162,82.61718682944775,SlaverRuins,"Old Ghis"],
@@ -390,7 +388,6 @@ var markers_NonWesteros = [
 [-41.70572851523751,108.01757745444775,Lhazar,"Hesh"],
 [-49.667627822621924,115.57617120444775,Lhazar,"Lhazosh"],
 
-<<<<<<< HEAD
 //Misc Ruins
 [-30.902224705171427,160.83984307944775,BaseRuins,"Adakhakileki"],
 [-26.509904531413927,166.37695245444775,BaseRuins,"Vaes Jini (Yinishar)"],
@@ -400,7 +397,7 @@ var markers_NonWesteros = [
 
 //Rhoyne
 [-28.226970038918328,-7.207031920552255,BaseRuins,"The Sorrows"],
-=======
+
 [-30.902224705171427,160.83984307944775,EssosRuin,"Adakhakileki"],
 [-26.509904531413927,166.37695245444775,EssosRuin,"Vaes Jini (Yinishar)"],
 [-21.616579336740593,135.08788995444775,EssosRuin,"Vaes Efe"],
@@ -408,7 +405,7 @@ var markers_NonWesteros = [
 [-29.305561325527712,119.26757745444775,EssosRuin,"Qhardaq"],
 
 [-28.226970038918328,-7.207031920552255,EssosRuin,"The Sorrows"],
->>>>>>> parent of 3f4aa57... Base
+
 [-40.380028402511826,-4.218750670552254,EssosTown,"Selhorys"],
 [-45.151053265563384,-4.218750670552254,EssosTown,"Valysar"],
 [-48.6909603909255,-2.0214850455522537,EssosTown,"Volon Therys"],
