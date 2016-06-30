@@ -443,4 +443,4 @@ var markers_NonWesteros = [
 [-79.68718415450823,132.099609375,SothoryosRuin,"Gorosh"]]
 
 var markers_Logos = [
-[-79.68718415450823,132.099609375,Sothoryos]]
+[-79.68718415450823,132.099609375,Sothoryos,""]]
