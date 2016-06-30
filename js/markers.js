@@ -67,7 +67,6 @@ var QarthRuins = L.icon({iconUrl: 'img/marker/QarthRuins.png',iconSize: [32, 74]
 
 var Lhazar = L.icon({iconUrl: 'img/marker/Lhazar.png',iconSize: [32, 74]})
 
-var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
 var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
 var EssosTown = L.icon({iconUrl: 'img/marker/EssosTown.png',iconSize: [32, 74]})
@@ -80,6 +79,10 @@ var ValyriaCity = L.icon({iconUrl: 'img/marker/ValyriaCity.png',iconSize: [32, 7
 var SothoryosRuin = L.icon({iconUrl: 'img/marker/SothoryosRuin.png',iconSize: [32, 74]})
 
 var Rhoynish = L.icon({iconUrl: 'img/marker/Rhoynish.png',iconSize: [32, 74]})
+
+var BaseTown = L.icon({iconUrl: 'img/marker/BaseTown.png',iconSize: [32, 74]})
+var BaseRuins = L.icon({iconUrl: 'img/marker/BaseRuins.png',iconSize: [32, 74]})
+var BaseCity = L.icon({iconUrl: 'img/marker/BaseCity.png',iconSize: [32, 74]})
 
 var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
 var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
@@ -355,18 +358,19 @@ var markers_NonWesteros = [
 [43.51668853502909,157.67578057944775,IbRuins,"Ibbish"],
 [47.39834920035926,143.61328057944775,IbTown,"New Ibbish"],
 
-[33.50475906922606,54.75585870444774,EssosRuin,"Sarys"],
-[38.548165423046584,49.13085870444774,EssosCity,"Morosh"],
-[31.87755764334002,39.814452454447746,EssosCity,"Saath"],
-[-0.7031073524364783,33.925780579447746,EssosRuin,"Essaria"],
-[-6.577303118123875,62.929686829447746,EssosRuin,"Sarnath"],
-[-2.3723687086440504,80.85937432944775,EssosRuin,"Kasath"],
-[-6.402648405963884,93.51562432944775,EssosRuin,"Sathar"],
-[10.228437266155943,86.48437432944775,EssosRuin,"Sallosh"],
-[3.7765593098768635,90.96679620444775,EssosRuin,"Gornath"],
-[-20.797201434306984,83.05663995444775,EssosRuin,"Hazdahn No"],
-[10.487811882056683,140.88867120444775,EssosTown,"Vaes Dothrak"],
-[-40.78054143186031,-64.423828125,EssosFort,"Bloodstone (T1 Fort and T1 Port)"],
+[33.50475906922606,54.75585870444774,BaseRuins,"Sarys"],
+[38.548165423046584,49.13085870444774,BaseTown,"Morosh"],
+[31.87755764334002,39.814452454447746,BaseTown,"Saath"],
+[-0.7031073524364783,33.925780579447746,BaseRuins,"Essaria"],
+[-6.577303118123875,62.929686829447746,BaseRuins,"Sarnath"],
+[-2.3723687086440504,80.85937432944775,BaseRuins,"Kasath"],
+[-6.402648405963884,93.51562432944775,BaseRuins,"Sathar"],
+[10.228437266155943,86.48437432944775,BaseRuins,"Sallosh"],
+[3.7765593098768635,90.96679620444775,BaseRuins,"Gornath"],
+[-20.797201434306984,83.05663995444775,BaseRuins,"Hazdahn No"],
+[10.487811882056683,140.88867120444775,BaseTown,"Vaes Dothrak"],
+
+[-40.78054143186031,-64.423828125,CLFort,"Bloodstone (T1 Fort and T1 Port)"],
 
 //Slaver's Bay
 [-66.687783861162,82.61718682944775,SlaverRuins,"Old Ghis"],
@@ -389,20 +393,20 @@ var markers_NonWesteros = [
 [-41.70572851523751,108.01757745444775,Lhazar,"Hesh"],
 [-49.667627822621924,115.57617120444775,Lhazar,"Lhazosh"],
 
-[-30.902224705171427,160.83984307944775,EssosRuin,"Adakhakileki"],
-[-26.509904531413927,166.37695245444775,EssosRuin,"Vaes Jini (Yinishar)"],
-[-21.616579336740593,135.08788995444775,EssosRuin,"Vaes Efe"],
-[-28.381735043223095,129.19921807944775,EssosRuin,"Vaes Mejhah"],
-[-29.305561325527712,119.26757745444775,EssosRuin,"Qhardaq"],
+[-30.902224705171427,160.83984307944775,BaseRuins,"Adakhakileki"],
+[-26.509904531413927,166.37695245444775,BaseRuins,"Vaes Jini (Yinishar)"],
+[-21.616579336740593,135.08788995444775,BaseRuins,"Vaes Efe"],
+[-28.381735043223095,129.19921807944775,BaseRuins,"Vaes Mejhah"],
+[-29.305561325527712,119.26757745444775,BaseRuins,"Qhardaq"],
 
-[-28.226970038918328,-7.207031920552255,EssosRuin,"The Sorrows"],
+[-28.226970038918328,-7.207031920552255,BaseRuins,"The Sorrows"],
 [-40.380028402511826,-4.218750670552254,EssosTown,"Selhorys"],
 [-45.151053265563384,-4.218750670552254,EssosTown,"Valysar"],
 [-48.6909603909255,-2.0214850455522537,EssosTown,"Volon Therys"],
 // Moraq
-[-76.43460358351301,158.3789049088955,EssosTown,"Vahar"],
-[-73.52839948765174,161.3671861588955,EssosTown,"Faros"],
-[-80.61842419685506,179.1210924088955,EssosTown,"Port Moraq"],
+[-76.43460358351301,158.3789049088955,BaseTown,"Vahar"],
+[-73.52839948765174,161.3671861588955,BaseTown,"Faros"],
+[-80.61842419685506,179.1210924088955,BaseTown,"Port Moraq"],
 
 // Summer Islands
 
