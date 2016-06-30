@@ -442,4 +442,5 @@ var markers_NonWesteros = [
 [-82.48333497678894,62.75390625,SothoryosRuin,"Gogossos"],
 [-79.68718415450823,132.099609375,SothoryosRuin,"Gorosh"]]
 
-[-79.68718415450823,132.099609375,Sothoryos]
+var markers_Logos = [
+[-79.68718415450823,132.099609375,Sothoryos]]
