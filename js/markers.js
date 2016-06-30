@@ -89,6 +89,8 @@ var Rhoynish = L.icon({iconUrl: 'img/marker/RhoyneRuins.png',iconSize: [32, 74]}
 var SarnorTown = L.icon({iconUrl: 'img/marker/SarnorTown.png',iconSize: [32, 74]})
 var SarnorRuins = L.icon({iconUrl: 'img/marker/SarnorRuins.png',iconSize: [32, 74]})
 
+var Moraq = L.icon({iconUrl: 'img/marker/Moraq.png',iconSize: [32, 74]})
+
 var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
 var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
 
@@ -409,9 +411,9 @@ var markers_NonWesteros = [
 [10.487811882056683,140.88867120444775,BaseTown,"Vaes Dothrak"],
 
 // Moraq
-[-76.43460358351301,158.3789049088955,BaseTown,"Vahar"],
-[-73.52839948765174,161.3671861588955,BaseTown,"Faros"],
-[-80.61842419685506,179.1210924088955,BaseTown,"Port Moraq"],
+[-76.43460358351301,158.3789049088955,Moraq,"Vahar"],
+[-73.52839948765174,161.3671861588955,Moraq,"Faros"],
+[-80.61842419685506,179.1210924088955,Moraq,"Port Moraq"],
 
 // Summer Islands
 [-77.80477074199555,-46.757813170552254,SITown,"Tall Trees Town"],
