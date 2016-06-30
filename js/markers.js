@@ -67,6 +67,7 @@ var QarthRuins = L.icon({iconUrl: 'img/marker/QarthRuins.png',iconSize: [32, 74]
 
 var Lhazar = L.icon({iconUrl: 'img/marker/Lhazar.png',iconSize: [32, 74]})
 
+var NonWesteros = L.icon({iconUrl: 'img/marker/Essos.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
 var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
 var EssosTown = L.icon({iconUrl: 'img/marker/EssosTown.png',iconSize: [32, 74]})
@@ -333,8 +334,6 @@ var markers_NonWesteros = [
 [77.35106958476409,-85.16601629555225,Wall,"Eastwatch"],
 [77.2544787022853,-103.00781317055225,Wall,"Shadow Tower"],
 
-
-
 // Free Cities
 [41.3108238809182,-44.12109374999999,EssosCity,"Braavos"],
 [-2.7235830833483856,-43.681640625,EssosCity,"Pentos"],
@@ -392,23 +391,25 @@ var markers_NonWesteros = [
 [-41.70572851523751,108.01757745444775,Lhazar,"Hesh"],
 [-49.667627822621924,115.57617120444775,Lhazar,"Lhazosh"],
 
+//Misc Ruins
 [-30.902224705171427,160.83984307944775,BaseRuins,"Adakhakileki"],
 [-26.509904531413927,166.37695245444775,BaseRuins,"Vaes Jini (Yinishar)"],
 [-21.616579336740593,135.08788995444775,BaseRuins,"Vaes Efe"],
 [-28.381735043223095,129.19921807944775,BaseRuins,"Vaes Mejhah"],
 [-29.305561325527712,119.26757745444775,BaseRuins,"Qhardaq"],
 
+//Rhoyne
 [-28.226970038918328,-7.207031920552255,BaseRuins,"The Sorrows"],
 [-40.380028402511826,-4.218750670552254,EssosTown,"Selhorys"],
 [-45.151053265563384,-4.218750670552254,EssosTown,"Valysar"],
 [-48.6909603909255,-2.0214850455522537,EssosTown,"Volon Therys"],
+
 // Moraq
 [-76.43460358351301,158.3789049088955,BaseTown,"Vahar"],
 [-73.52839948765174,161.3671861588955,BaseTown,"Faros"],
 [-80.61842419685506,179.1210924088955,BaseTown,"Port Moraq"],
 
 // Summer Islands
-
 [-77.80477074199555,-46.757813170552254,SITown,"Tall Trees Town"],
 [-76.41397301513199,-56.601563170552254,SICity,"Lotus Port"],
 [-74.54332982677904,-65.39062567055225,SITown,"Last Lament"],
