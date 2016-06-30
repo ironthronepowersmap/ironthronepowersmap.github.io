@@ -81,10 +81,10 @@ var SothoryosRuin = L.icon({iconUrl: 'img/marker/SothoryosRuin.png',iconSize: [3
 
 var Rhoynish = L.icon({iconUrl: 'img/marker/Rhoynish.png',iconSize: [32, 74]})
 
-var BaseTown = L.icon({iconUrl: 'img/marker/BaseTown.png',iconSize: [32, 74]})
+/*var BaseTown = L.icon({iconUrl: 'img/marker/BaseTown.png',iconSize: [32, 74]})
 var BaseRuins = L.icon({iconUrl: 'img/marker/BaseRuins.png',iconSize: [32, 74]})
 var BaseCity = L.icon({iconUrl: 'img/marker/BaseCity.png',iconSize: [32, 74]})
-
+*/
 var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
 var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
 
