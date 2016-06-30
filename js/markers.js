@@ -84,7 +84,7 @@ var ValyriaCity = L.icon({iconUrl: 'img/marker/ValyriaCity.png',iconSize: [32, 7
 
 var SothoryosRuin = L.icon({iconUrl: 'img/marker/SothoryosRuin.png',iconSize: [32, 74]})
 
-var Rhoynish = L.icon({iconUrl: 'img/marker/Rhoynish.png',iconSize: [32, 74]})
+var Rhoynish = L.icon({iconUrl: 'img/marker/RhoyneRuins.png',iconSize: [32, 74]})
 
 var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
 var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
@@ -352,9 +352,10 @@ var markers_NonWesteros = [
 [-45.151053265563384,-4.218750670552254,EssosTown,"Valysar"],
 [-48.6909603909255,-2.0214850455522537,EssosTown,"Volon Therys"],
 
-// Rest of Essos
-[1.3182430568620136,-28.125,BaseRuins,"Ghoyan Drohe"],
-[-7.536764322084078,-12.480468749999998,BaseRuins,"Ny Sar"],
+//Rhoynar
+[1.3182430568620136,-28.125,Rhoynish,"Ghoyan Drohe"],
+[-7.536764322084078,-12.480468749999998,Rhoynish,"Ny Sar"],
+[-28.226970038918328,-7.207031920552255,Rhoynish,"The Sorrows"],
 
 //Ib
 [60.71619779357716,144.22851495444772,IbCity,"Port of Ibben"],
@@ -401,9 +402,6 @@ var markers_NonWesteros = [
 [-21.616579336740593,135.08788995444775,BaseRuins,"Vaes Efe"],
 [-28.381735043223095,129.19921807944775,BaseRuins,"Vaes Mejhah"],
 [-29.305561325527712,119.26757745444775,BaseRuins,"Qhardaq"],
-
-//Rhoyne
-[-28.226970038918328,-7.207031920552255,BaseRuins,"The Sorrows"],
 
 [-30.902224705171427,160.83984307944775,BaseRuins,"Adakhakileki"],
 [-26.509904531413927,166.37695245444775,BaseRuins,"Vaes Jini (Yinishar)"],
