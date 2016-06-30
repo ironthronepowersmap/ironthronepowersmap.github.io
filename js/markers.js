@@ -113,7 +113,7 @@ var markers_SL = [
 [-36.17335693522159,-78.134765625,SLtown,"Weeping Town"],
 [-35.02999636902566,-71.103515625,SL,"Greenstone"],
 [-20.961439614096825,-69.78515625,SL,"Evenfall Hall"],
-[-22.187404991398775,-78.22265625,SLcapitol,"Storm's End"],
+[-22.187404991398775,-78.22265625,SLcapitol,"Storm's End<br><b>House:</b> Baratheon<br><b>Troops:</b> 20 good men"],
 [-15.876809064146757,-74.091796875,SL,"Parchments"],
 [-12.811801316582606,-80.068359375,SL,"Haystack Hall"],
 [-17.056784609942554,-82.44140625,SL,"Bronzegate"],
