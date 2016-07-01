@@ -97,7 +97,7 @@ var Moraq = L.icon({iconUrl: 'img/marker/Moraq.png',iconSize: [32, 74]})
 var SICity = L.icon({iconUrl: 'img/marker/SICity.png',iconSize: [32, 74]})
 var SITown = L.icon({iconUrl: 'img/marker/SITown.png',iconSize: [32, 74]})
 
-var Sothoryos = L.icon({iconUrl: 'img/marker/Sothoryos.png',iconSize: [238, 65]})
+var Sothoryos = L.icon({iconUrl: 'img/marker/Sothoryos',iconSize: [238, 65]})
 
 // Define the markers
 var markers_SL = [
@@ -445,4 +445,4 @@ var markers_NonWesteros = [
 [-79.68718415450823,132.099609375,SothoryosRuin,"Gorosh"]]
 
 var markers_Logos = [
-[-79.68718415450823,132.099609375,Sothoryos,"Test"]]
+[-79.68718415450823,132.099609375,Sothoryos,""]]
