@@ -14,6 +14,7 @@ var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
 var CLtown = L.icon({iconUrl: 'img/marker/CLtown.png',iconSize: [32, 74]})
 var CLcity = L.icon({iconUrl: 'img/marker/CLcity.png',iconSize: [32, 74]})
 var CLfort = L.icon({iconUrl: 'img/marker/CLfort.png',iconSize: [32, 74]})
+var CLtemple = L.icon({iconUrl: 'img/marker/CLtemple.png',iconSize: [32, 74]})
 
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var DorneCapitol = L.icon({iconUrl: 'img/marker/DorneCapitol.png',iconSize: [32, 74]})
@@ -47,6 +48,7 @@ var Valecapitol = L.icon({iconUrl: 'img/marker/Valecapitol.png',iconSize: [32, 7
 var Valecity = L.icon({iconUrl: 'img/marker/Valecity.png',iconSize: [32, 74]})
 var Valetown = L.icon({iconUrl: 'img/marker/Valetown.png',iconSize: [32, 74]})
 var Valefort = L.icon({iconUrl: 'img/marker/Valefort.png',iconSize: [32, 74]})
+var Valetemple = L.icon({iconUrl: 'img/marker/Valetemple.png',iconSize: [32, 74]})
 
 var Wall = L.icon({iconUrl: 'img/marker/Wall.png',iconSize: [32, 74]})
 
@@ -130,31 +132,31 @@ var markers_SL = [
 var markers_Vale = [
 [27.21555620902969,-88.06640625,Vale,"<b>Gates of the Moon</b><br>- House: Arryn<br>- Levies: 4,000"],
 [28.844673680771795,-87.71484375,Valecapitol,"<b>The Eyrie</b><br>- House: Arryn"],
-[25.085598897064777,-92.197265625,Valefort,"The Bloody Gate"],
-[15.623036831528264,-79.453125,Valetown,"Wickendon"],
-[25.085598897064777,-67.67578124999999,Valecity,"Gulltown"],
-[26.980828590472107,-61.52343749999999,Vale,"Witch Isle"],
-[27.761329874505233,-66.181640625,Vale,"Runestone"],
-[29.611670115197406,-71.982421875,Vale,"Old Anchor"],
-[33.211116472416855,-71.89453125,Vale,"Longbow Hall"],
-[38.548165423046584,-66.09375,Vale,"Champion's Hall"],
-[34.016241889667015,-83.75976562499999,Vale,"Heart's Home"],
-[37.85750715625203,-80.15625,Vale,"Snakewood"],
-[41.77131167976407,-77.431640625,Vale,"Coldwater Burn"],
-[46.37725420510028,-69.60937499999999,Vale,"The Paps"],
-[45.767522962149904,-78.134765625,Vale,"Pebble"],
-[45.02695045318546,-83.84765625,Vale,"The Fingers"],
-[47.754097979680026,-90,Valetown,"Three Sisters"],
-[41.83682786072714,-88.59374999999999,Vale,"Ninestars"],
-[41.64007838467894,-94.833984375,Valefort,"The Bite's Teeth"],
-[34.66935854524545,-94.130859375,Vale,"Strongsong"],
-[38.61687046392973,-85.60546875,Vale,"Newkeep"],
-[31.728167146023935,-76.904296875,Vale,"Cloudspire"],
-[28.14950321154457,-79.89257812499999,Vale,"Ironoaks"],
-[25.878994400196202,-77.6953125,Vale,"Grey Glen"],
-[24.367113562651276,-81.474609375,Vale,"Redfort"],
-[21.94304553343818,-78.046875,Valefort,"Little Redfort"],
-[27.371767300523047,-83.583984375,Vale,"Hardhold"]]
+[25.085598897064777,-92.197265625,Valefort,"<b>The Bloody Gate</b>"],
+[15.623036831528264,-79.453125,Valetown,"<b>Wickendon</b><br>- House: Waxley<br>- Levies: 2,000"],
+[25.085598897064777,-67.67578124999999,Valecity,"<b>Gulltown</b><br>- House: Grafton<br>- Levies: 4,500"],
+[26.980828590472107,-61.52343749999999,Vale,"<b>Witch Isle</b><br>- House: Upcliff<br>- Levies: 1,000"],
+[27.761329874505233,-66.181640625,Vale,"<b>Runestone</b><br>- House: Royce<br>- Levies: 3,000"],
+[29.611670115197406,-71.982421875,Vale,"<b>Old Anchor</b><br>- House: Melcolm<br>- Levies: 2,000"],
+[33.211116472416855,-71.89453125,Vale,"<b>Longbow Hall</b><br>- House: Hunter<br>- Levies: 3,000"],
+[38.548165423046584,-66.09375,Vale,"<b>Champion's Hall</b><br>- House: Wydman<br>- Levies: 1,000"],
+[34.016241889667015,-83.75976562499999,Vale,"<b>Heart's Home</b><br>- House: Corbray<br>- Levies: 3,000"],
+[37.85750715625203,-80.15625,Vale,"<b>Snakewood</b><br>- House: Lynderly<br>- Levies: 3,000"],
+[41.77131167976407,-77.431640625,Vale,"<b>Coldwater Burn</b><br>- House: Coldwater<br>- Levies: 1,500"],
+[46.37725420510028,-69.60937499999999,Vale,"<b>The Paps</b><br>- House: Elesham<br>- Levies: 1,000"],
+[45.767522962149904,-78.134765625,Vale,"<b>Pebble</b><br>- House: Pryor<br>- Levies: 1,000"],
+[45.02695045318546,-83.84765625,Vale,"<b>The Fingers</b><br>- House: Baelish<br>- Levies: 1,000"],
+[47.754097979680026,-90,Valetown,"<b>Three Sisters</b><br>- House: Borrell<br>- Levies: 2,000"],
+[41.83682786072714,-88.59374999999999,Vale,"<b>Ninestars</b><br>- House: Templeton<br>- Levies: 2,000"],
+[41.64007838467894,-94.833984375,Valefort,"<b>The Bite's Teeth</b>"],
+[34.66935854524545,-94.130859375,Vale,"<b>Strongsong</b><br>- House: Belmore<br>- Levies: 3,000"],
+[38.61687046392973,-85.60546875,Vale,"<b>Newkeep</b><br>- House: Hersy<br>- Levies: 2,000"],
+[31.728167146023935,-76.904296875,Valetemple,"<b>Cloudspire</b>"],
+[28.14950321154457,-79.89257812499999,Vale,"<b>Ironoaks</b><br>- House: Waynwood<br>- Levies: 3,000"],
+[25.878994400196202,-77.6953125,Vale,"<b>Grey Glen</b><br>- House: Tollett<br>- Levies: 1,000"],
+[24.367113562651276,-81.474609375,Vale,"<b>Redfort</b><br>- House: Redfort<br>- Levies: 3,000"],
+[21.94304553343818,-78.046875,Valefort,"<b>Little Redfort</b>"],
+[27.371767300523047,-83.583984375,Vale,"<b>Hardhold</b><br>- House: Hardyng<br>- Levies: 1,000"]]
 
 var markers_North = [
 [47.040182144806664,-112.763671875,North,"Greywater Watch"],
@@ -192,7 +194,7 @@ var markers_CL = [
 [-10.40137755454354,-92.021484375,CL,"<b>Kingswood Hall</b><br>- House: Toyne<br>- Levies: 500"],
 [7.27529233637217,-73.388671875,CL,"<b>Dragonstone</b><br>- House: Targaryen<br>- Levies: 2,500"],
 [5.266007882805511,-76.46484375,CLtown,"<b>Driftmark</b><br>- House: Velaryon<br>- Levies: 2,000"],
-[4.477856485570586,-78.134765625,CLfort,"<b>Aelinorfort</b>"],
+[4.477856485570586,-78.134765625,CLtemple,"<b>Aelinorfort</b>"],
 [12.382928338487408,-73.740234375,CL,"<b>Dyre Den</b><br>- House: Brune<br>- Levies: 2,000"],
 [14.349547837185375,-68.291015625,CL,"<b>Claw Isle</b><br>- House: Celtigar<br>- Levies: 1,500"],
 [4.653079918274051,-80.68359375,CL,"<b>Sweetport Sound</b><br>- House: Sunglass<br>- Levies: 1,000"],
