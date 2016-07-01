@@ -169,7 +169,21 @@
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
 			arrNonWesterosMarkers.push(marker)
          }
-		var markerLayerNonWesteros = L.layerGroup(arrNonWesterosMarkers).addTo(map);	
+		var markerLayerNonWesteros = L.layerGroup(arrNonWesterosMarkers).addTo(map);
+		
+		//Add logo markers to map at each layer, etc
+		var arrLogosMarkers = []
+         for (var i=0; i<markers_Logos.length; i++) {
+           
+            var lat = markers_Logos[i][0];
+            var lon = markers_Logos[i][1];
+			var icn = markers_Logos[i][2];
+            var popupText = markers_Logos[i][3];
+            
+             var marker = new L.Marker([lat, lon], {icon: icn});
+			arrLogosMarkers.push(marker)
+         }
+		var markerLayerLogos = L.layerGroup(arrLogosMarkers).addTo(map);	
 				
 		
 		// Hide markers if the user zooms out
