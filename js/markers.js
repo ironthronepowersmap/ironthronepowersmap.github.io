@@ -128,9 +128,9 @@ var markers_SL = [
 
 
 var markers_Vale = [
-[27.21555620902969,-88.06640625,Vale,"Gates of the Moon"],
-[28.844673680771795,-87.71484375,Valecapitol,"The Eyrie"],
-[25.085598897064777,-92.197265625,Vale,"The Bloody Gate"],
+[27.21555620902969,-88.06640625,Vale,"<b>Gates of the Moon</b><br>- House: Arryn<br>- Levies: 4,000"],
+[28.844673680771795,-87.71484375,Valecapitol,"<b>The Eyrie</b><br>- House: Arryn"],
+[25.085598897064777,-92.197265625,Valefort,"The Bloody Gate"],
 [15.623036831528264,-79.453125,Valetown,"Wickendon"],
 [25.085598897064777,-67.67578124999999,Valecity,"Gulltown"],
 [26.980828590472107,-61.52343749999999,Vale,"Witch Isle"],
@@ -158,7 +158,7 @@ var markers_Vale = [
 
 var markers_North = [
 [47.040182144806664,-112.763671875,North,"Greywater Watch"],
-[51.45400691005982,-107.40234375,North,"Moat Cailin"],
+[51.45400691005982,-107.40234375,NorthFort,"Moat Cailin"],
 [50.56928286558243,-94.39453125,North,"Oldcastle"],
 [56.12106042504407,-98.525390625,NorthCity,"White Harbor"],
 [58.44773280389084,-80.947265625,North,"Ramsgate"],
@@ -443,4 +443,4 @@ var markers_NonWesteros = [
 [-79.68718415450823,132.099609375,SothoryosRuin,"Gorosh"]]
 
 var markers_Logos = [
-[-79.68718415450823,132.099609375,Sothoryos,""]]
+[-79.68718415450823,132.099609375,Sothoryos,"Test"]]
