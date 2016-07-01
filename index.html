@@ -28,7 +28,7 @@
 	<button type="button" class="btn btn-block" style="background-color:#8333ef" onClick="toggleNonWesterosLayer()">Toggle Rest</button>
     <hr>
 	<button id="btn-line" type="button" class="btn btn-block btn-default" data-drawing="no" style="color:#000" onClick="add_line()">Draw Line</button>
-	<button id="btn-line" type="button" class="btn btn-block btn-default" style="color:#000" onClick="clear_lines()">Clear Lines</button>  
+	<button id="btn-clear" type="button" class="btn btn-block btn-default" style="color:#000" onClick="clear_lines()">Clear Lines</button>  
 	  <!-- <textarea class="form-control" id="text" style="resize:none;font-size:10px;height:50%"></textarea> -->
   </div>
   <div id="map"></div>
@@ -41,10 +41,13 @@
 	function add_line(){
 		
 		btn = $("#btn-line")
+		clr = $("#btn-clear")
 		if(btn.data('drawing') == "no"){
+			
 			col = prompt("Enter Color")
 			btn.html("Stop drawing line")
 			btn.data("drawing","yes")
+			clr.prop('disabled',true)
 			currentLine = L.polyline([], {color: col}).addTo(map);
 			polylines.push(currentLine);
 			map.on('click', onMapClick);
@@ -53,6 +56,7 @@
 		else{
 			btn.html("Draw line")
 			btn.data("drawing","no")
+			clr.prop('disabled',false)
 			map.off('click',onMapClick);	
 		}
 	}
@@ -64,7 +68,7 @@
 			}	
 			for(var i = 0; i < circles.length; ++i){
 				map.removeLayer(circles[i])
-			}	
+			}
 	}
 	
 	/*This function gives you Lat Long of what you click on */
