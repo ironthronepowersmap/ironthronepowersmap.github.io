@@ -243,24 +243,24 @@ var markers_Reach = [
 [-45.89000815866183,-148.18359375,Reach,"<b>Three Towers</b><br>- House: Costayne<br>- Levies: 2,000"]]
 //Iron Islands
 var markers_II = [
-[33.211116472416855,-138.33984375,II,"Blacktyde Hall"],
-[31.203404950917395,-135.87890625,II,"Volmark"],
-[27.527758206861886,-137.28515624999997,II,"Grey Garden"],
-[30.977609093348686,-140.888671875,II,"Orkmont"],
-[30.600093873550072,-145.72265625,II,"Castle Drumm"],
-[31.728167146023935,-147.91992187499997,II,"Carved Keep"],
-[30.90222470517144,-149.677734375,II,"Reaver's Rest"],
-[29.152161283318915,-143.7890625,II,"Pebbleton Tower"],
-[27.371767300523047,-141.943359375,II,"Iron Holt"],
-[25.878994400196202,-144.228515625,IItown,"Lordsport"],
-[26.03704188651584,-146.42578125,II,"Saltcliffe"],
-[31.203404950917395,-175.25390624999997,II,"Lonely Light"],
-[29.53522956294847,-136.7578125,II,"Skyshatter"],
-[28.92163128242129,-134.736328125,II,"Twenty Towers"],
-[30.600093873550072,-139.482421875,II,"Nettle's Scourge"],
-[26.03704188651584,-142.11914062499997,II,"Pyke"],
-[29.611670115197406,-148.271484375,IIcapitol,"Hammerhorn"],
-[28.613459424004414,-146.513671875,II,"Depth's Lamment"]]
+[33.211116472416855,-138.33984375,II,"<b>Blacktyde Hall</b><br>- House: Blacktyde<br>- Levies: 2,000"],
+[31.203404950917395,-135.87890625,II,"<b>Volmark</b><br>- House: 1,500<br>- levies: 1,500"],
+[27.527758206861886,-137.28515624999997,II,"<b>Grey Garden</b><br>- House: Ironson<br>- Levies: 1,500"],
+[30.977609093348686,-140.888671875,II,"<b>Orkmont</b><br>- House: Orkwood<br>- Levies: 3,000"],
+[30.600093873550072,-145.72265625,II,"<b>Castle Drumm</b><br>- House: Drumm<br>- Levies: 2,000"],
+[31.728167146023935,-147.91992187499997,II,"<b>Carved Keep</b><br>- House: Stonehouse<br>- Levies: 1,000"],
+[30.90222470517144,-149.677734375,II,"<b>Reaver's Rest</b><br>- House: Stonetree<br>- Levies: 1,000"],
+[29.152161283318915,-143.7890625,II,"<b>Pebbleton Tower</b><br>- House: Drummlyn<br>- Levies: 1,000"],
+[27.371767300523047,-141.943359375,II,"<b>Iron Holt</b><br>- House: Wynch<br>- Levies: 1,000"],
+[25.878994400196202,-144.228515625,IItown,"<b>Lordsport</b><br>- House: Botley<br>- Levies: 1,500"],
+[26.03704188651584,-146.42578125,II,"<b>Saltcliffe</b><br>- House: Sunderly<br>- Levies: 2,000"],
+[31.203404950917395,-175.25390624999997,II,"<b>Lonely Light</b><br>- House: Greywynd<br>- Levies: 1,000"],
+[29.53522956294847,-136.7578125,II,"<b>Skyshatter</b><br>- House: Kenning<br>- Levies: 1,000"],
+[28.92163128242129,-134.736328125,II,"<b>Twenty Towers</b><br>- House: Harlaw<br>- Levies: 3,000"],
+[30.600093873550072,-139.482421875,II,"<b>Nettle's Scourge</b><br>- House: Tawney<br>- Levies: 1,000"],
+[26.03704188651584,-142.11914062499997,II,"<b>Pyke</b><br>- House: Greyjoy<br>- Levies: 3,500"],
+[29.611670115197406,-148.271484375,IIcapitol,"<b>Hammerhorn</b><br>- House: Stonesinger<br>- Levies: 3,000"],
+[28.613459424004414,-146.513671875,II,"<b>Depth's Lamment</b><br>- House: Codd<br>- Levies: 1,000"]]
 
 var markers_Dorne = [
 [-36.31512514748051,-99.66796875,Dorne,"Wyl"],
