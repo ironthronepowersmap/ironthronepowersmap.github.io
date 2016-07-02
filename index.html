@@ -14,7 +14,7 @@
 <body>
   <div id="header">
     <div id="link" onClick='window.location.href="https://reddit.com/r/ironthronepowers"'></div>
-  </div>  q
+  </div>  
   <div id="toolbar">
     <button type="button" class="btn btn-block" style="background-color:#f0c61d" onClick="toggleSLLayer()">Toggle SL</button>
 	<button type="button" class="btn btn-block" style="background-color:#daed0e" onClick="toggleCLLayer()">Toggle CL</button>
@@ -28,7 +28,8 @@
 	<button type="button" class="btn btn-block" style="background-color:#8333ef" onClick="toggleNonWesterosLayer()">Toggle Rest</button>
     <hr>
 	<button id="btn-line" type="button" class="btn btn-block btn-default" data-drawing="no" style="color:#000" onClick="add_line()">Draw Line</button>
-	<button id="btn-clear" type="button" class="btn btn-block btn-default" style="color:#000" onClick="clear_lines()">Clear Lines</button>  
+	<button id="btn-point" type="button" class="btn btn-block btn-default" data-drawing="no" style="color:#000" onClick="add_point()">Draw point</button>
+	<button id="btn-clear" type="button" class="btn btn-block btn-default" style="color:#000" onClick="clear()">Clear drawings</button>  
 	  <!-- <textarea class="form-control" id="text" style="resize:none;font-size:10px;height:50%"></textarea> -->
   </div>
   <div id="map"></div>
@@ -38,30 +39,46 @@
 	var circles = []
 	var col = ""
 	var currentLine;
+	var lin = $("#btn-line")
+	var pnt = $("#btn-point")
+	var clr = $("#btn-clear")
+	
+	function add_point(){
+		pnt.data("drawing","yes")
+		clr.prop('disabled',true)
+		lin.prop('disabled',true)
+		currentLine = L.polyline([], {color: col}).addTo(map);
+		polylines.push(currentLine);
+		map.on('click', addPoint);
+	}
+
+	
+	
 	function add_line(){
 		
-		btn = $("#btn-line")
-		clr = $("#btn-clear")
-		if(btn.data('drawing') == "no"){
+		
+		if(lin.data('drawing') == "no"){
 			
 			col = prompt("Enter Color")
-			btn.html("Stop drawing line")
-			btn.data("drawing","yes")
+			lin.html("Stop drawing line")
+			lin.data("drawing","yes")
 			clr.prop('disabled',true)
+			pnt.prop('disabled',true)
 			currentLine = L.polyline([], {color: col}).addTo(map);
 			polylines.push(currentLine);
-			map.on('click', onMapClick);
+			map.on('click', addToLine);
 			
 		}
 		else{
-			btn.html("Draw line")
-			btn.data("drawing","no")
+			lin.html("Draw line")
+			lin.data("drawing","no")
 			clr.prop('disabled',false)
-			map.off('click',onMapClick);	
+			pnt.prop('disabled',false)
+			map.off('click',addToLine);	
 		}
 	}
 
-	function clear_lines(){
+	function clear(){
 		if(confirm("Are you sure?"))
 			for(var i = 0; i < polylines.length; ++i){
 				map.removeLayer(polylines[i])
@@ -72,7 +89,7 @@
 	}
 	
 	/*This function gives you Lat Long of what you click on */
-	function onMapClick(e) {
+	function addToLine(e) {
 	
 		//if(confirm("ADD MARKER HERE=?")){
 		//	var mrk = prompt("Marker (SL,CL,Dorne,II,North,NotWesteros,RL,TrueNorth,Vale,Wall,West):")
@@ -88,6 +105,27 @@
 	//	}
 
 	};
+	
+	
+	/*This function gives you Lat Long of what you click on */
+	function addPoint(e) {
+	
+		//if(confirm("ADD MARKER HERE=?")){
+		//	var mrk = prompt("Marker (SL,CL,Dorne,II,North,NotWesteros,RL,TrueNorth,Vale,Wall,West):")
+		//	var txt = prompt("Text")
+			m_icon = L.icon({iconUrl: 'img/marker/transparent.png',iconSize: [32, 74]})
+			mark = new L.Marker([e.latlng.lat, e.latlng.lng], {icon: m_icon})//.bindPopup(txt);
+			var circle = L.circle([e.latlng.lat, e.latlng.lng],(parseFloat(prompt("Dot radius"))*10000), {color: prompt("Dot color"), fillColor:col,fillOpacity:1}).addTo(map)
+			circles.push(circle)
+		//	$("#text").val($("#text").val()+"["+e.latlng.lat+","+e.latlng.lng+","+mrk+",\""+txt+"\"],\n")
+
+	//	}
+			lin.html("Draw line")
+			pnt.data("drawing","no")
+			clr.prop('disabled',false)
+			lin.prop('disabled',false)
+			map.off('click',addPoint);	
+	};	
   </script>
 </body>
 </html>
