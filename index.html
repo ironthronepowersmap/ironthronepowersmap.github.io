@@ -113,9 +113,10 @@
 		//if(confirm("ADD MARKER HERE=?")){
 		//	var mrk = prompt("Marker (SL,CL,Dorne,II,North,NotWesteros,RL,TrueNorth,Vale,Wall,West):")
 		//	var txt = prompt("Text")
+			col2 = prompt("Dot color")
 			m_icon = L.icon({iconUrl: 'img/marker/transparent.png',iconSize: [32, 74]})
 			mark = new L.Marker([e.latlng.lat, e.latlng.lng], {icon: m_icon})//.bindPopup(txt);
-			var circle = L.circle([e.latlng.lat, e.latlng.lng],(parseFloat(prompt("Dot radius"))*10000), {color: prompt("Dot color"), fillColor:col,fillOpacity:1}).addTo(map)
+			var circle = L.circle([e.latlng.lat, e.latlng.lng],(parseFloat(prompt("Dot radius"))*10000), {color: col2, fillColor:col2,fillOpacity:0.75}).addTo(map)
 			circles.push(circle)
 		//	$("#text").val($("#text").val()+"["+e.latlng.lat+","+e.latlng.lng+","+mrk+",\""+txt+"\"],\n")
 
