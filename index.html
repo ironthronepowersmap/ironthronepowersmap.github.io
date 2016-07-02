@@ -29,7 +29,7 @@
     <hr>
 	<button id="btn-line" type="button" class="btn btn-block btn-default" data-drawing="no" style="color:#000" onClick="add_line()">Draw Line</button>
 	<button id="btn-point" type="button" class="btn btn-block btn-default" data-drawing="no" style="color:#000" onClick="add_point()">Draw point</button>
-	<button id="btn-clear" type="button" class="btn btn-block btn-default" style="color:#000" onClick="clear()">Clear drawings</button>  
+	<button id="btn-clear" type="button" class="btn btn-block btn-default" style="color:#000" onClick="clear_all()">Clear drawings</button>  
 	  <!-- <textarea class="form-control" id="text" style="resize:none;font-size:10px;height:50%"></textarea> -->
   </div>
   <div id="map"></div>
@@ -78,7 +78,7 @@
 		}
 	}
 
-	function clear(){
+	function clear_all(){
 		if(confirm("Are you sure?"))
 			for(var i = 0; i < polylines.length; ++i){
 				map.removeLayer(polylines[i])
@@ -96,8 +96,8 @@
 		//	var txt = prompt("Text")
 			m_icon = L.icon({iconUrl: 'img/marker/transparent.png',iconSize: [32, 74]})
 			mark = new L.Marker([e.latlng.lat, e.latlng.lng], {icon: m_icon})//.bindPopup(txt);
-			var circle = L.circle([e.latlng.lat, e.latlng.lng],20, {color: col, fillColor:col,fillOpacity:1}).addTo(map)
-			circles.push(circle)
+		//	var circle = L.circle([e.latlng.lat, e.latlng.lng],20, {color: col, fillColor:col,fillOpacity:1}).addTo(map)
+		//	circles.push(circle)
 			map.addLayer(mark)
 			currentLine.addLatLng(mark.getLatLng())	
 		//	$("#text").val($("#text").val()+"["+e.latlng.lat+","+e.latlng.lng+","+mrk+",\""+txt+"\"],\n")
@@ -116,7 +116,7 @@
 			col2 = prompt("Dot color")
 			m_icon = L.icon({iconUrl: 'img/marker/transparent.png',iconSize: [32, 74]})
 			mark = new L.Marker([e.latlng.lat, e.latlng.lng], {icon: m_icon})//.bindPopup(txt);
-			var circle = L.circle([e.latlng.lat, e.latlng.lng],(parseFloat(prompt("Dot radius"))*10000), {color: col2, fillColor:col2,fillOpacity:0.75}).addTo(map)
+			var circle = L.circle([e.latlng.lat, e.latlng.lng],30000, {color: col2, fillColor:col2,fillOpacity:0.75}).addTo(map)
 			circles.push(circle)
 		//	$("#text").val($("#text").val()+"["+e.latlng.lat+","+e.latlng.lng+","+mrk+",\""+txt+"\"],\n")
 

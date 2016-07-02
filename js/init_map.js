@@ -316,3 +316,37 @@
 				map.addLayer(markerLayerNonWesteros);
 			}
 		}					
+				
+		var selector = L.control({
+		  position: 'topleft'
+		});
+		selector.onAdd = function(map) {
+		  var div = L.DomUtil.create('div', 'mySelector');
+		  div.innerHTML = '<select id="marker_select" class="form-control"><option value="init">(select item)</option></select>';
+		  return div;
+		};
+		selector.addTo(map);
+		
+		
+		markerLayerNonWesteros.eachLayer(function(layer) {
+			var optionElement = document.createElement("option");
+			optionElement.innerHTML = layer._popup._content;
+			optionElement.value = layer._leaflet_id;
+			L.DomUtil.get("marker_select").appendChild(optionElement);
+		});
+		
+		var marker_select = L.DomUtil.get("marker_select");
+		L.DomEvent.addListener(marker_select, 'click', function(e) {
+			L.DomEvent.stopPropagation(e);
+		});
+		L.DomEvent.addListener(marker_select, 'change', changeHandler);
+		
+		function changeHandler(e) {
+			if (e.target.value == "init") {
+				map.closePopup();
+			} else {
+				// TODO: CENTER MAP
+				// map.setView()
+				markerLayerNonWesteros.getLayer(e.target.value).openPopup();
+			}
+		}
