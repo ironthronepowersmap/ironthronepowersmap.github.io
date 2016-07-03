@@ -207,7 +207,7 @@ var markers_CL = [
 [2.6357885741666065,-93.955078125,CL,"<b>Stokeworth</b><br>- House: Stokeworth<br>- Levies: 2,000"],
 [-0.7031073524364783,-95.361328125,CL,"<b>Hayford</b><br>- House: Thorne<br>- Levies: 1,000"],
 [-1.5818302639606328,-91.49414062499999,CL,"<b>Rosby</b><br>- House: Rosby<br>- Levies: 3,000"],
-[-4.915832801313164,-99.31640625,CLfort,"<b>Fort Rosby</b>"],
+[-4.915832801313164,-99.31640625,CLfort,"<b>Fort Lychtenstyne </b>"],
 [-40.78054143186031,-64.423828125,CLfort,"<b>Bloodstone</b>"],
 [-4.8282597468669755,-94.21875,CLcity,"<b>King's Landing</b><br>- House: Targaryen<br>- Levies: 5,000"]]
 
