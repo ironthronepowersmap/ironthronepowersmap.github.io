@@ -263,26 +263,26 @@ var markers_II = [
 [28.613459424004414,-146.513671875,II,"<b>Depth's Lamment</b><br>- House: Codd<br>- Levies: 1,000"]]
 
 var markers_Dorne = [
-[-36.31512514748051,-99.66796875,Dorne,"Wyl"],
-[-36.31512514748051,-106.61132812499999,Dorne,"Vulture's Roost"],
-[-39.571822237343724,-115.400390625,Dorne,"Kingsgrave"],
-[-43.32517767999295,-113.5546875,Dorne,"Skyreach"],
-[-43.19716728250127,-102.83203125,Dorne,"Yronwood"],
-[-40.51379915504413,-95.712890625,DorneRuins,"Ghaston Grey"],
-[-45.33670190996812,-88.59374999999999,Dorne,"The Tor"],
-[-46.01222384063236,-71.806640625,Dorne,"Ghost Hill"],
-[-48.80686346108517,-68.291015625,Dorne,"Spottswood"],
-[-50.736455137010644,-71.806640625,DorneCapitol,"Sunspear"],
-[-53.4357192066942,-78.75,Dorne,"Lemonwood"],
-[-49.439556958940834,-86.1328125,Dorne,"Godsgrace"],
-[-48.74894534343292,-92.10937499999999,Dorne,"Scorched Rock"],
-[-53.067626642387374,-89.12109375,Dorne,"Salt Shore"],
-[-50.34546040860479,-96.85546875,Dorne,"Vaith"],
-[-50.62507306341435,-109.86328125,Dorne,"Hellholt"],
-[-50.457504020420565,-122.87109375,Dorne,"Sandstone"],
-[-40.44694705960048,-126.03515625,Dorne,"Blackmont"],
-[-43.644025847699496,-126.03515625,Dorne,"High Hermitage"],
-[-47.5172006978394,-129.375,Dorne,"Starfall"]]
+[-36.31512514748051,-99.66796875,Dorne,"<b>Wyl</b><br>- House: Wyl<br>- Levies: 1,500"],
+[-36.31512514748051,-106.61132812499999,Dorne,"<b>Vulture's Roost</b><br>- House: Drinkwater<br>- Levies: 1,000"],
+[-39.571822237343724,-115.400390625,Dorne,"<b>Kingsgrave</b><br>- House: Manwoody<br>- Levies: 1,500"],
+[-43.32517767999295,-113.5546875,Dorne,"<b>Skyreach</b><br>- House: Fowler<br>- Levies: 3,000"],
+[-43.19716728250127,-102.83203125,Dorne,"<b>Yronwood</b><br>- House: Yronwood<br>- Levies: 3,500"],
+[-40.51379915504413,-95.712890625,DorneRuins,"<b>Ghaston Grey</b>"],
+[-45.33670190996812,-88.59374999999999,Dorne,"<b>The Tor</b><br>- House: Jordayne<br>- Levies: 2,000"],
+[-46.01222384063236,-71.806640625,Dorne,"<b>>Ghost Hill</b><br>- House: Toland<br>- Levies: 2,000"],
+[-48.80686346108517,-68.291015625,Dorne,"<b>Spottswood</b><br>- House: Santagar<br>- Levies: 1,000"],
+[-50.736455137010644,-71.806640625,DorneCapitol,"<b>Sunspear</b><br>- House: Martell<br>- Levies: 4,000"],
+[-53.4357192066942,-78.75,Dorne,"<b>Lemonwood</b><br>- House: Dalt<br>- Levies: 1,500"],
+[-49.439556958940834,-86.1328125,Dorne,"<b>Godsgrace</b><br>- House: Allyrion<br>- Levies: 3,000"],
+[-48.74894534343292,-92.10937499999999,Dorne,"<b>Scorched Rock</b><br>- House: Ladybright<br>- Levies: 1,000"],
+[-53.067626642387374,-89.12109375,Dorne,"<b>Salt Shore</b><br>- House: Gargalen<br>- Levies: 1,000"],
+[-50.34546040860479,-96.85546875,Dorne,"<b>Vaith</b><br>- House: Vaith<br>- Levies: 1,500"],
+[-50.62507306341435,-109.86328125,Dorne,"<b>Hellholt</b><br>- House: Hellfyre<br>- Levies: 2,000"],
+[-50.457504020420565,-122.87109375,Dorne,"<b>Sandstone</b><br>- House: Qorgyle<br>- Levies: 1,000"],
+[-40.44694705960048,-126.03515625,Dorne,"<b>Blackmont</b><br>- House: Blackmont<br>- Levies: 2,000"],
+[-43.644025847699496,-126.03515625,Dorne,"<b>High Hermitage</b><br>- House: Custom<br>- Levies: 1,000"],
+[-47.5172006978394,-129.375,Dorne,"<b>Starfall</b><br>- House: Dayne<br>- Levies: 2,500"]]
 
 //Riverlands
 var markers_RL = [
