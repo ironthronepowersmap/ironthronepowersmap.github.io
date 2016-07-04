@@ -166,7 +166,7 @@ var markers_North = [
 [58.44773280389084,-80.947265625,North,"<b>Ramsgate</b><br>- House: Blunt<br>- Levies: 1,500"],
 [57.27904276497778,-67.8515625,North,"<b>Widow's Watch</b><br>- House: Flint<br>- Levies: 2,500"],
 [62.59334083012024,-94.306640625,North,"<b>Sheepshead Hills</b><br>- House: Woolfield<br>- Levies: 1,000"],
-[64.35893097894458,-90.17578124999999,North,"<b>Hornwood</b><br>- House: Hornwood<br>- Levies: 2,000"],
+[64.35893097894458,-90.17578124999999,North,"<b>Hornwood</b><br>- House: Poole<br>- Levies: 2,000"],
 [68.33437594128185,-87.5390625,North,"<b>The Dreadfort</b><br>- House: Bolton<br>- Levies: 3,500"],
 [70.61261423801925,-70.400390625,North,"<b>Karhold</b><br>- House: Karstark<br>- Levies: 3,000"],
 [73.47848507889992,-91.93359375,North,"<b>Last Hearth</b><br>- House: Umber<br>- Levies: 3,000"],
