@@ -360,7 +360,7 @@ var markers_NonWesteros = [
 [-51.72702815704775,5.625,EssosCity,"<b>Volantis</b>"],
 [-40.380028402511826,-4.218750670552254,EssosTown,"<b>Selhorys</b>"],
 [-45.151053265563384,-4.218750670552254,EssosTown,"<b>Valysar</b>"],
-[-48.6909603909255,-2.0214850455522537,EssosTown,"<b>Volon Therys>/b>"],
+[-48.6909603909255,-2.0214850455522537,EssosTown,"<b>Volon Therys</b>"],
 
 //Rhoynar
 [1.3182430568620136,-28.125,Rhoynish,"<b>Ghoyan Drohe</b>"],
