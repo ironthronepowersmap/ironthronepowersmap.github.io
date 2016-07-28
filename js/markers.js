@@ -349,7 +349,7 @@ var markers_NonWesteros = [
 
 // Free Cities
 [41.3108238809182,-44.12109374999999,EssosCity,"<b>Braavos</b>"],
-[-2.7235830833483856,-43.681640625,EssosCity,"<b>Pentos/b>"],
+[-2.7235830833483856,-43.681640625,EssosCity,"<b>Pentos</b>"],
 [14.093957177836224,-15.205078125,EssosCity,"<b>Norvos</b>"],
 [-2.0210651187669897,11.337890625,EssosCity,"<b>Qohor</b>"],
 [-29.91685223307016,-33.57421875,EssosCity,"<b>Myr</b>"],
