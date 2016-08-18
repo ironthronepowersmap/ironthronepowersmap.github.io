@@ -436,6 +436,9 @@ var markers_NonWesteros = [
 [-67.67608458198097,35.68359375,ValyriaRuin,"<b>Tyria</b>"],
 [-68.91100484562018,21.533203125,ValyriaRuin,"<b>Oros</b>"],
 [-71.01695975726373,31.904296874999996,ValyriaRuin,"<b>Valyria</b>"],
+[-70.64177, 46.49414,ValyriaRuin,"<b>Ruins</b>"],
+[-74.23588, 29.00391,ValyriaRuin,"<b>Ruins</b>"],
+[-60.28341, 24.96094,ValyriaRuin,"<b>Ruins</b>"],
 
 // Sothoryos 
 
