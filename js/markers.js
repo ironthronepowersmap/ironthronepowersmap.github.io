@@ -430,7 +430,7 @@ var markers_NonWesteros = [
 [-51.835777520452474,52.82226495444774,ValyriaCity,"<b>Tolos</b>"],
 [-47.04018214480664,30.49804620444775,ValyriaRuin,"<b>Ruins</b>"],
 [-48.63290858589533,21.181639954447746,ValyriaRuin,"<b>Ruins</b>"],
-[-52.908902047770255,46.142578125,ValyriaRuin,"<b>Elyria</b>"],
+[-52.908902047770255,46.142578125,ValyriaCity,"<b>Elyria</b>"],
 [-61.8146638946839,60.99609375,ValyriaRuin,"<b>Velos</b>"],
 [-57.23150299147891,59.32617187499999,ValyriaRuin,"<b>Ghozai</b>"],
 [-67.67608458198097,35.68359375,ValyriaRuin,"<b>Tyria</b>"],
