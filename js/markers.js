@@ -9,6 +9,7 @@ var SLcapitol = L.icon({iconUrl: 'img/marker/SLcapitol.png',iconSize: [32, 74]})
 var SLfort = L.icon({iconUrl: 'img/marker/SLfort.png',iconSize: [32, 74]})
 var SLtown = L.icon({iconUrl: 'img/marker/SLtown.png',iconSize: [32, 74]})
 var SLpalace = L.icon({iconUrl: 'img/marker/SLpalace.png',iconSize: [32, 74]})
+var SLSept = L.icon({iconUrl: 'img/marker/SLSept.png',iconSize: [32, 74]})
 
 var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
 var CLtown = L.icon({iconUrl: 'img/marker/CLtown.png',iconSize: [32, 74]})
@@ -126,6 +127,7 @@ var markers_SL = [
 [-33.06392419812064,-100.8984375,SLfort,"<b>Caelen's Reach</b>"],
 [-11.350796722383672,-76.552734375,SLfort,"<b>Durran's Grief</b>"],
 [-11.95334939364343,-86.923828125,SLfort,"<b>Forrestwatch</b>"],
+[-37.71859, -81.47461,SLSept,"<b>Stormy Sept</b>"],
 [-29.228890030194215,-97.646484375,SL,"<b>Gallowsgrey</b><br>- House: Trant<br>- Levies: 2,500"]]
 
 
