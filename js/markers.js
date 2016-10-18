@@ -20,6 +20,7 @@ var CLtemple = L.icon({iconUrl: 'img/marker/CLtemple.png',iconSize: [32, 74]})
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var DorneCapitol = L.icon({iconUrl: 'img/marker/DorneCapitol.png',iconSize: [32, 74]})
 var DorneRuins = L.icon({iconUrl: 'img/marker/DorneRuins.png',iconSize: [32, 74]})
+var DorneEstate = L.icon({iconUrl: 'img/marker/DorneEstate.png',iconSize: [32, 74]})
 
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
 var IItown = L.icon({iconUrl: 'img/marker/IItown.png',iconSize: [32, 74]})
@@ -189,6 +190,8 @@ var markers_North = [
 [73.89811065820952,-128.759765625,North,"<b>Bear Island</b><br>- House: Ursus<br>- Levies: 1,500"],
 [47.45780853075031,-138.779296875,North,"<b>Flint's Finger</b><br>- House: Stromton<br>- Levies: 1,500"],
 [53.69670647530323,-134.47265625,NorthFort,"<b>Ironguard</b>"],
+[65.10915, -148.18359,NorthFort,"<b>Reaver's Bane</b>"],
+[44.21371, -150.29297,NorthFort,"<b>Hardpeak</b>"],
 [67.30598, -116.2793,NorthEstate,"<b>Axehall</b>"]]
 
 var markers_CL = [
@@ -274,7 +277,7 @@ var markers_Dorne = [
 [-43.19716728250127,-102.83203125,Dorne,"<b>Yronwood</b><br>- House: Yronwood<br>- Levies: 3,500"],
 [-40.51379915504413,-95.712890625,DorneRuins,"<b>Ghaston Grey</b>"],
 [-45.33670190996812,-88.59374999999999,Dorne,"<b>The Tor</b><br>- House: Jordayne<br>- Levies: 2,000"],
-[-46.01222384063236,-71.806640625,Dorne,"<b>>Ghost Hill</b><br>- House: Toland<br>- Levies: 2,000"],
+[-46.01222384063236,-71.806640625,Dorne,"<b>Ghost Hill</b><br>- House: Toland<br>- Levies: 2,000"],
 [-48.80686346108517,-68.291015625,Dorne,"<b>Spottswood</b><br>- House: Santagar<br>- Levies: 1,000"],
 [-50.736455137010644,-71.806640625,DorneCapitol,"<b>Sunspear</b><br>- House: Martell<br>- Levies: 4,000"],
 [-53.4357192066942,-78.75,Dorne,"<b>Lemonwood</b><br>- House: Dalt<br>- Levies: 1,500"],
@@ -286,6 +289,7 @@ var markers_Dorne = [
 [-50.457504020420565,-122.87109375,Dorne,"<b>Sandstone</b><br>- House: Qorgyle<br>- Levies: 1,000"],
 [-40.44694705960048,-126.03515625,Dorne,"<b>Blackmont</b><br>- House: Blackmont<br>- Levies: 2,000"],
 [-43.644025847699496,-126.03515625,Dorne,"<b>High Hermitage</b><br>- House: Custom<br>- Levies: 1,000"],
+[-43.77109, -70.40039,DorneEstate,"<b>Toland Estate</b>"],
 [-47.5172006978394,-129.375,Dorne,"<b>Starfall</b><br>- House: Dayne<br>- Levies: 2,500"]]
 
 //Riverlands
