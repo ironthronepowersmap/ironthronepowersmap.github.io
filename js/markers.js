@@ -230,7 +230,6 @@ var markers_Reach = [
 [-16.55196172197251,-130.341796875,Reach,"<b>Goldengrove</b><br>- House: Rowan<br>- Levies: 5,000"],
 [-14.179186142354169,-138.69140625,Reach,"<b>Red Lake</b><br>- House: Crane<br>- Levies: 3,500"],
 [-18.396230138028812,-146.337890625,Reach,"<b>Old Oak</b><br>- House: Oakheart<br>- Levies: 5,000"],
-[-22.024545601240327,-137.197265625,Reach,"<b>Appleton</b><br>- House: Appleton<br>- Levies: 1,000"],
 [-25.085598897064763,-141.064453125,ReachTown,"<b>Shield Islands</b><br>- House: Hollard<br>- Levies: 3,500"],
 [-25.48295117535531,-134.208984375,Reach,"<b>New Barrel</b><br>- House: Fossoway<br>- Levies: 2,500"],
 [-20.550508894195637,-116.27929687499999,Reach,"<b>Longtable</b><br>- House: Merryweather<br>- Levies: 2,500"],
