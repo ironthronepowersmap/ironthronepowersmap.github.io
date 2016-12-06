@@ -176,7 +176,7 @@ var markers_North = [
 [73.47848507889992,-91.93359375,North,"<b>Last Hearth</b><br>- House: Umber<br>- Levies: 3,000"],
 [75.47513069090051,-70.48828125,North,"<b>Kingshouse</b><br>- House: Magnar<br>- Levies: 1,000"],
 [74.47290269579455,-109.6875,North,"<b>Nothern Mountains</b><br>- House: Knott<br>- Levies: 2,500"],
-[71.60828252210263,-108.28125,North,"<b>Highpoint</b><br>- House: Whitehill<br>- Levies: 1,000"],
+[71.60828252210263,-108.28125,North,"<b>Highpoint</b><br>- House: Bolton<br>- Levies: 1,000"],
 [67.30597574414466,-108.984375,NorthCapitol,"<b>Winterfell</b><br>- House: Stark<br>- Levies: 4,000"],
 [63.66576033778838,-106.25976562499999,North,"<b>Castle Cerwyn</b><br>- House: Cerwyn<br>- Levies: 2,000"],
 [62.71446210149774,-123.22265625000001,North,"<b>Torrhen's Square</b><br>- House: Tallhart<br>- Levies: 3,000"],
