@@ -317,7 +317,7 @@ var markers_RL = [
 [12.12526421833159,-119.970703125,RL,"<b>Pinkmaiden</b><br>- House: Piper<br>- Levies: 3,000"],
 [12.297068292853805,-115.75195312499999,RL,"<b>Acorn Hall</b><br>- House: Smallwood<br>- Levies: 1,000"],
 [18.396230138028827,-113.37890625,RL,"<b>Stone Hedge</b><br>- House: Bracken<br>- Levies: 5,500"],
-[22.024545601240337,-109.599609375,RLtown,"<b>Pennytree</b><br>- Levies: 500“],
+[22.024545601240337,-109.599609375,RLtown,"<b>Pennytree</b><br>- Levies: 500"],
 [19.062117883514667,-104.150390625,RL,"<b>Darry</b><br>- House: Darry<br>- Levies: 2,000”],
 [19.642587534013046,-117.42187500000001,RL,"<b>Riverrun</b><br>- House: Tully<br>- Levies: 6,000"],
 [19.559790136497398,-120.498046875,RL,"<b>Sherrer</b><br>- House: Custom<br>- Levies: 1,000"],
