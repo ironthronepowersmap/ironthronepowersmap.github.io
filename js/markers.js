@@ -189,9 +189,9 @@ var markers_North = [
 [71.32895017791999,-117.94921874999999,North,"<b>Ironrath</b><br>- House: Bowen<br>- Levies: 1,000"],
 [73.89811065820952,-128.759765625,North,"<b>Bear Island</b><br>- House: Ursus<br>- Levies: 1,500"],
 [47.45780853075031,-138.779296875,North,"<b>Flint's Finger</b><br>- House: Stromton<br>- Levies: 1,500"],
-[53.69670647530323,-134.47265625,NorthFort,"<b>Ironguard</b>"],
-[65.10915, -148.18359,NorthFort,"<b>Reaver's Bane</b>"],
-[44.21371, -150.29297,NorthFort,"<b>Hardpeak</b>"],
+[52.85586, -134.64844,NorthFort,"<b>Ironguard</b>"],
+[64.58618, -149.76562,NorthFort,"<b>Reaver's Bane</b>"],
+[45.213, -150.38086,NorthFort,"<b>Hardpeak</b>"],
 [67.30598, -116.2793,NorthEstate,"<b>Axehall</b>"]]
 
 var markers_CL = [

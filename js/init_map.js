@@ -26,8 +26,8 @@
 
 		};
 		map.on('click', onMapClick);
-		*/
 		
+		*/
 		
 		//Loop through the SL markers (declared on marker.js) array and add markers to layer
 		var arrSLMarkers = []
