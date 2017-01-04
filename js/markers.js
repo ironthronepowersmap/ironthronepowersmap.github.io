@@ -299,7 +299,7 @@ var markers_RL = [
 [36.527294814546245,-114.43359375,RLcapitol,"<b>The Crossing</b><br>- House: Frey<br>- Levies: 6,000"],
 [30.221101852485987,-110.21484375,RL,"<b>Castle Lychester</b><br>- House: Lychester<br>- Levies: 1,500"],
 [30.14512718337613,-116.71874999999999,RL,"<b>Hag's Mire</b><br>- House: Nayland<br>- Levies: 1,000"],
-[25.562265014427492,-116.806640625,RL,"<b>Raventree Hall</b><br>- House: Blackwood<br>- Levies: 5,500"],
+[25.562265014427492,-116.806640625,RL,"<b>Amberhall</b><br>- House: Amberwood<br>- Levies: 1,000"],
 [26.352497858154,-110.56640625,RLtown,"<b>Fairmarket</b><br>- House: Damaran<br>- Levies: 1,000"],
 [25.48295117535531,-103.88671875,RL,"<b>Cylene Tower</b><br>- House: Paege<br>- Levies: 1,000"],
 [20.138470312451155,-100.546875,RLtown,"<b>Lord Harroway's Town</b><br>- House: Stryfe<br>- Levies: 1,000"],
