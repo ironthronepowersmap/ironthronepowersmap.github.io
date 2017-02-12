@@ -266,7 +266,7 @@ var markers_II = [
 [30.600093873550072,-139.482421875,II,"<b>Nettle's Scourge</b><br>- House: Tawney<br>- Levies: 1,000"],
 [26.03704188651584,-142.11914062499997,II,"<b>Pyke</b><br>- House: Greyjoy<br>- Levies: 3,500"],
 [29.611670115197406,-148.271484375,IIcapitol,"<b>Hammerhorn</b><br>- House: Stonesinger<br>- Levies: 3,000"],
-[28.613459424004414,-146.513671875,II,"<b>Depth's Lamment</b><br>- House: Codd<br>- Levies: 1,000"]]
+[28.613459424004414,-146.513671875,II,"<b>Depth's Lamment</b><br>- House: Graves<br>- Levies: 1,000"]]
 
 var markers_Dorne = [
 [-36.31512514748051,-99.66796875,Dorne,"<b>Wyl</b><br>- House: Wyl<br>- Levies: 1,500"],
@@ -293,14 +293,14 @@ var markers_Dorne = [
 
 //Riverlands
 var markers_RL = [
-[40.58058466412764,-101.513671875,RLfort,"<b>San Freycisco</b<"],
+[40.58058466412764,-101.513671875,RL,"<b>San Freycisco</b>- House: Frey<br>- Levies: 2,500"],
 [33.7243396617476,-119.970703125,RLtown,"<b>Seagard</b><br>- House: Mallister<br>- Levies: 3,000"],
 [39.50404070558415,-108.45703125,RLfort,"<b>Wolfswatch</b>"],
 [36.527294814546245,-114.43359375,RLcapitol,"<b>The Crossing</b><br>- House: Frey<br>- Levies: 6,000"],
 [30.221101852485987,-110.21484375,RL,"<b>Castle Lychester</b><br>- House: Lychester<br>- Levies: 1,500"],
 [30.14512718337613,-116.71874999999999,RL,"<b>Hag's Mire</b><br>- House: Nayland<br>- Levies: 1,000"],
 [25.562265014427492,-116.806640625,RL,"<b>Amberhall</b><br>- House: Amberwood<br>- Levies: 1,000"],
-[26.352497858154,-110.56640625,RLtown,"<b>Fairmarket</b><br>- House: Damaran<br>- Levies: 1,000"],
+[26.352497858154,-110.56640625,RLtown,"<b>Fairmarket</b><br>- House: Damaran<br>- Levies: 3,000"],
 [25.48295117535531,-103.88671875,RL,"<b>Cylene Tower</b><br>- House: Paege<br>- Levies: 1,000"],
 [20.138470312451155,-100.546875,RLtown,"<b>Lord Harroway's Town</b><br>- House: Stryfe<br>- Levies: 1,000"],
 [17.14079039331665,-93.8671875,RLtown,"<b>Saltpans</b><br>- House: Cox<br>- Levies: 1,000"],
@@ -317,7 +317,7 @@ var markers_RL = [
 [12.12526421833159,-119.970703125,RL,"<b>Pinkmaiden</b><br>- House: Piper<br>- Levies: 3,000"],
 [12.297068292853805,-115.75195312499999,RL,"<b>Acorn Hall</b><br>- House: Smallwood<br>- Levies: 1,000"],
 [18.396230138028827,-113.37890625,RL,"<b>Stone Hedge</b><br>- House: Bracken<br>- Levies: 5,500"],
-[22.024545601240337,-109.599609375,RLtown,"<b>Pennytree</b>"],
+[22.024545601240337,-109.599609375,RL,"<b>Pennytree</b>- House: Basset<br>- Levies: 1,000"],
 [19.062117883514667,-104.150390625,RL,"<b>Darry</b><br>- House: Darry<br>- Levies: 3,500"],
 [19.642587534013046,-117.42187500000001,RL,"<b>Riverrun</b><br>- House: Tully<br>- Levies: 6,000"],
 [19.559790136497398,-120.498046875,RL,"<b>Sherrer</b><br>- House: Custom<br>- Levies: 1,000"],
@@ -343,10 +343,10 @@ var markers_West = [
 [2.986927393334876,-126.21093749999999,West,"<b>Deep Den</b><br>- House: Lydden<br>- Levies: 2,500"],
 [2.1088986592431382,-132.275390625,West,"<b>Silverhill</b><br>- House: Serrett<br>- Levies: 2,000"],
 [-1.2303741774326018,-140.44921875,West,"<b>Clegane's Keep</b><br>- House: Clegane<br>- Levies: 1,000"],
-[-8.233237111274553,-148.53515625,West,"<b>Crakehall</b><br>- House: Crakehall<br>- Levies: 3,000"],
-[-5.9657536710655235,-132.5390625,West,"<b>The Bower</b><br>- House: Greenfield<br>- Levies: 1,000"],
-[-6.664607562172573,-138.8671875,West,"<b>Cornfield</b><br>- House: Swyft<br>- Levies: 1,000"],
-[2.6357885741666065,-143.876953125,WestCity,"<b>Lannisport</b><br>- House: Lannister<br>- Levies: 5,000"]]
+[-8.233237111274553,-148.53515625,Reach,"<b>Crakehall</b><br>- House: Crakehall<br>- Levies: 3,000"],
+[-5.9657536710655235,-132.5390625,Reach,"<b>The Bower</b><br>- House: Greenfield<br>- Levies: 1,000"],
+[-6.664607562172573,-138.8671875,Reach,"<b>Cornfield</b><br>- House: Swyft<br>- Levies: 1,000"],
+[2.6357885741666065,-143.876953125,WestCity,"<b>Lannisport</b><br>- House: Anathon<br>- Levies: 5,000"]]
 
 var markers_NonWesteros = [
 // Wall
