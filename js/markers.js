@@ -161,7 +161,7 @@ var markers_Vale = [
 [24.367113562651276,-81.474609375,Vale,"<b>Redfort</b><br>- House: Redfort<br>- Levies: 3,000"],
 [21.94304553343818,-78.046875,Valefort,"<b>Little Redfort</b>"],
 [27.371767300523047,-83.583984375,Vale,"<b>Hardhold</b><br>- House: Hardyng<br>- Levies: 1,000"],
-[15.2304, -82.26562,Valefort,"<b>Stein's Gate</b>"]
+[15.2304, -82.26562,Valefort,"<b>Stein's Gate</b>"]]
 
 var markers_North = [
 [47.040182144806664,-112.763671875,North,"<b>Greywater Watch</b><br>- House: Reed<br>- Levies: 2,000"],
