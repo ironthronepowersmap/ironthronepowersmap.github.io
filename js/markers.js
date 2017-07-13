@@ -247,7 +247,8 @@ var markers_Reach = [
 [-51.39920565355377,-142.646484375,Reach,"<b>Sunhouse</b><br>- House: Hightower<br>- Levies: 2,000"],
 [-43.771093817756494,-148.798828125,Reach,"<b>Blackcrown</b><br>- House: Bulwer<br>- Levies: 2,000"],
 [-51.67255514839674,-150.556640625,ReachTown,"<b>The Arbor</b><br>- House: Redwyne<br>- Levies: 5,000"],
-[-45.89000815866183,-148.18359375,Reach,"<b>Three Towers</b><br>- House: Costayne<br>- Levies: 2,000"]]
+[-45.89000815866183,-148.18359375,Reach,"<b>Three Towers</b><br>- House: Costayne<br>- Levies: 2,000"],
+[-26.90248, -138.25195,ReachFort,"<b>Port Foss</b>"]]
 //Iron Islands
 var markers_II = [
 [33.211116472416855,-138.33984375,II,"<b>Blacktyde Hall</b><br>- House: Blacktyde<br>- Levies: 2,000"],
